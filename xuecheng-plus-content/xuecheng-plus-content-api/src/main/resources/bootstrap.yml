@@ -5,7 +5,7 @@ server:
 #微服务配置
 spring:
   application:
-    name: content-api
+    name: xuecheng-plus-content-api-service
 
 # swagger 文档配置
 swagger:

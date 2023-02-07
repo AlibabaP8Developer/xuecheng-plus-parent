@@ -2,17 +2,15 @@ package com.xuecheng.content.controller.api;
 
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
-import com.xuecheng.model.dto.QueryCourseParamsDto;
-import com.xuecheng.model.po.CourseBase;
+import com.xuecheng.content.model.dto.QueryCourseParamsDto;
+import com.xuecheng.content.model.po.CourseBase;
+import com.xuecheng.content.service.CourseBaseInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author Mr.M
@@ -24,6 +22,9 @@ import java.util.List;
 @RestController
 public class CourseBaseInfoController {
 
+    @Autowired
+    private CourseBaseInfoService courseBaseInfoService;
+
     /**
      * 课程查询接口
      * @param pageParams 分页
@@ -33,12 +34,8 @@ public class CourseBaseInfoController {
     @ApiOperation("课程查询接口")
     @PostMapping("/course/list")
     public PageResult<CourseBase> list(PageParams pageParams, @RequestBody QueryCourseParamsDto queryCourseParams) {
-        CourseBase courseBase = new CourseBase();
-        courseBase.setCreateDate(LocalDateTime.now());
-        List<CourseBase> list = new ArrayList<>();
-        list.add(courseBase);
-        PageResult<CourseBase> result = new PageResult<CourseBase>(list, 1, 1, 1);
-        return result;
+        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParams);
+        return courseBasePageResult;
     }
 
 }
