@@ -1,5 +1,5 @@
 ### 课程查询接口
-POST http://localhost:63040/course/list?pageNo=1&pageSize=5
+POST http://{{content_host}}/course/list?pageNo=1&pageSize=5
 Content-Type: application/json
 
 {
