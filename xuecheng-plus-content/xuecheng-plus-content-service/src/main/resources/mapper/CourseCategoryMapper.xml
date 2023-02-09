@@ -15,12 +15,13 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, name, label, parentid, is_show, orderby, is_leaf
+        p.id, p.name, p.label, p.parentid, p.is_show, p.orderby, p.is_leaf
     </sql>
 
     <select id="selectTreeNodes" parameterType="string" resultType="com.xuecheng.content.model.dto.CourseCategoryTreeDto">
         with recursive t1 as (
-            select p.*
+            select
+            <include refid="Base_Column_List"></include>
             from course_category p
             where p.id =#{id}
             union all
