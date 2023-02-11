@@ -9,7 +9,30 @@ Content-Type: application/json
 }
 
 ### 新增课程接口
+POST http://{{content_host}}/content/course
+Content-Type: application/json
 
+{
+  "mt": "1-1-1",
+  "st": "1-1",
+  "charge": "201001",
+  "description": "string",
+  "grade": "string",
+  "name": "测试课程",
+  "originalPrice": 0,
+  "phone": "string",
+  "pic": "0",
+  "price": 0,
+  "qq": "string",
+  "tags": "string",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "validDays": 0,
+  "wechat": "string"
+}
+
+###
 GET http://{{content_host}}/content/course-category/tree-nodes
 
+# http://localhost:63040/content/swagger-ui.html
 <> 2023-02-07T223955.404.html

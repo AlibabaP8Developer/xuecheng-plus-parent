@@ -3,6 +3,8 @@ package com.xuecheng.content.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xuecheng.base.exception.CommonError;
+import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.content.mapper.CourseBaseMapper;
@@ -51,7 +53,9 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         // 对参数进行合法性的校验
         //合法性校验
         if (StringUtils.isBlank(dto.getName())) {
-            throw new RuntimeException("课程名称为空");
+            //throw new RuntimeException("课程名称为空");
+            XueChengPlusException.cast("课程名称为空");
+            //XueChengPlusException.cast(CommonError.PARAMS_ERROR);
         }
 
         if (StringUtils.isBlank(dto.getMt())) {
@@ -96,11 +100,12 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         CourseMarket courseMarket = new CourseMarket();
         BeanUtils.copyProperties(dto, courseMarket);
         courseMarket.setId(courseId);
-        // 校验如果课程为收费，价格必须输入
+        // 校验如果课程为收费，价格必须输入 且必须大于0
         String charge = dto.getCharge();
         if (charge.equals("201001")) {
-            if (courseMarket.getPrice() == null) {
-                throw new RuntimeException("课程为收费，但是价格为空");
+            float price = courseMarket.getPrice();
+            if (courseMarket.getPrice() == null || price <= 0) {
+                XueChengPlusException.cast("课程为收费，但是价格为空且必须大于0");
             }
         }
         // 向课程营销表插入一条记录
@@ -157,6 +162,7 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         wrapper.eq(StringUtils.isNotEmpty(paramsDto.getAuditStatus()), CourseBase::getAuditStatus, paramsDto.getAuditStatus());
         // 根据课程发布状态
         wrapper.eq(StringUtils.isNotEmpty(paramsDto.getPublishStatus()), CourseBase::getStatus, paramsDto.getPublishStatus());
+        wrapper.orderByDesc(CourseBase::getCreateDate);
         // 分页参数
         Page<CourseBase> page = new Page<>(params.getPageNo(), params.getPageSize());
         // 分页查询

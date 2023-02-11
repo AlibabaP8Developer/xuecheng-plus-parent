@@ -44,7 +44,9 @@ public class CourseBaseInfoController {
     @PostMapping("/course")
     public CourseBaseInfoDto createCourseBase(@RequestBody AddCourseDto addCourseDto) {
         // 获取当前用户所属培训机构的ID
+        Long companyId = 22L;
         // 调用service
-        return null;
+        CourseBaseInfoDto courseBase = courseBaseInfoService.createCourseBase(companyId, addCourseDto);
+        return courseBase;
     }
 }
