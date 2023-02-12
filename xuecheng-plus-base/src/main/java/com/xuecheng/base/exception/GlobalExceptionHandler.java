@@ -39,6 +39,7 @@ public class GlobalExceptionHandler {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public RestErrorResponse doValidException(MethodArgumentNotValidException argumentNotValidException) {
         BindingResult bindingResult = argumentNotValidException.getBindingResult();
+        // 收集错误
         StringBuffer errMsg = new StringBuffer();
 
         List<FieldError> fieldErrors = bindingResult.getFieldErrors();
@@ -63,7 +64,6 @@ public class GlobalExceptionHandler {
         return new RestErrorResponse(errorMsg.toString());
     }
 
-
     @ResponseBody
     @ExceptionHandler(Exception.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
@@ -75,7 +75,5 @@ public class GlobalExceptionHandler {
             return new RestErrorResponse("没有操作此功能的权限");
         }
         return new RestErrorResponse(CommonError.UNKOWN_ERROR.getErrMessage());
-
-
     }
 }

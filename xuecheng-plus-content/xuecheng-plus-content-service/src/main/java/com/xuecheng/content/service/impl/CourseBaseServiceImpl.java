@@ -52,35 +52,35 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
     public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto dto) {
         // 对参数进行合法性的校验
         //合法性校验
-        if (StringUtils.isBlank(dto.getName())) {
-            //throw new RuntimeException("课程名称为空");
-            XueChengPlusException.cast("课程名称为空");
+        //if (StringUtils.isBlank(dto.getName())) {
+            //XueChengPlusException.cast("课程名称为空");
             //XueChengPlusException.cast(CommonError.PARAMS_ERROR);
-        }
+        //}
 
-        if (StringUtils.isBlank(dto.getMt())) {
-            throw new RuntimeException("课程分类为空");
-        }
+        //if (StringUtils.isBlank(dto.getMt())) {
+        //    throw new RuntimeException("课程分类为空");
+        //}
+        //
+        //if (StringUtils.isBlank(dto.getSt())) {
+        //    throw new RuntimeException("课程分类为空");
+        //}
 
-        if (StringUtils.isBlank(dto.getSt())) {
-            throw new RuntimeException("课程分类为空");
-        }
+        //if (StringUtils.isBlank(dto.getGrade())) {
+        //    throw new RuntimeException("课程等级为空");
+        //}
+        //
+        //if (StringUtils.isBlank(dto.getTeachmode())) {
+        //    throw new RuntimeException("教育模式为空");
+        //}
+        //
+        //if (StringUtils.isBlank(dto.getUsers())) {
+        //    throw new RuntimeException("适应人群为空");
+        //}
 
-        if (StringUtils.isBlank(dto.getGrade())) {
-            throw new RuntimeException("课程等级为空");
-        }
+        //if (StringUtils.isBlank(dto.getCharge())) {
+        //    throw new RuntimeException("收费规则为空");
+        //}
 
-        if (StringUtils.isBlank(dto.getTeachmode())) {
-            throw new RuntimeException("教育模式为空");
-        }
-
-        if (StringUtils.isBlank(dto.getUsers())) {
-            throw new RuntimeException("适应人群为空");
-        }
-
-        if (StringUtils.isBlank(dto.getCharge())) {
-            throw new RuntimeException("收费规则为空");
-        }
         // 对数据进行封装，调用mapper进行数据持久化
         CourseBase courseBase = new CourseBase();
         // 将传入dto的数据设置到courseBase对象, dto拷贝到courseBase里
@@ -111,7 +111,8 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         // 向课程营销表插入一条记录
         int insert1 = courseMarketMapper.insert(courseMarket);
         if (insert < 0 || insert1 <= 0) {
-            throw new RuntimeException("添加课程失败");
+            //throw new RuntimeException("添加课程失败");
+            XueChengPlusException.cast("添加课程失败");
         }
         // 组装要返回的结果
         return getCourseBaseInfo(courseId);
