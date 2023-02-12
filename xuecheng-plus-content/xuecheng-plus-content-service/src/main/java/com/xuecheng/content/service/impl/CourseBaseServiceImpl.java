@@ -12,6 +12,7 @@ import com.xuecheng.content.mapper.CourseCategoryMapper;
 import com.xuecheng.content.mapper.CourseMarketMapper;
 import com.xuecheng.content.model.dto.AddCourseDto;
 import com.xuecheng.content.model.dto.CourseBaseInfoDto;
+import com.xuecheng.content.model.dto.EditCourseDto;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.model.po.CourseCategory;
@@ -53,8 +54,8 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         // 对参数进行合法性的校验
         //合法性校验
         //if (StringUtils.isBlank(dto.getName())) {
-            //XueChengPlusException.cast("课程名称为空");
-            //XueChengPlusException.cast(CommonError.PARAMS_ERROR);
+        //XueChengPlusException.cast("课程名称为空");
+        //XueChengPlusException.cast(CommonError.PARAMS_ERROR);
         //}
 
         //if (StringUtils.isBlank(dto.getMt())) {
@@ -116,6 +117,50 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         }
         // 组装要返回的结果
         return getCourseBaseInfo(courseId);
+    }
+
+    @Override
+    public CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto dto) {
+        // 校验
+
+        // 课程id
+        Long courseId = dto.getId();
+        CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        if (courseBase == null) {
+            XueChengPlusException.cast("课程不存在");
+        }
+
+        if (!companyId.equals(courseBase.getCompanyId())) {
+            XueChengPlusException.cast("只允许修改本机构的课程");
+        }
+
+        // 封装基本信息的数据
+        BeanUtils.copyProperties(dto, courseBase);
+        courseBase.setChangeDate(LocalDateTime.now());
+
+        // 封装营销信息的数据
+        //查询营销信息
+        CourseMarket courseMarket = new CourseMarket();
+        BeanUtils.copyProperties(dto, courseMarket);
+
+        //收费规则
+        String charge = dto.getCharge();
+        if (charge.equals("201001")) {
+            Float price = dto.getPrice();
+            if (price == null || price.floatValue() <= 0) {
+                XueChengPlusException.cast("课程设置了收费价格不能为空且必须大于0");
+            }
+        }
+
+        //更新
+
+        courseBaseMapper.updateById(courseBase);
+
+        // 组装数据
+
+        // 请求数据库
+
+        return null;
     }
 
     /**
