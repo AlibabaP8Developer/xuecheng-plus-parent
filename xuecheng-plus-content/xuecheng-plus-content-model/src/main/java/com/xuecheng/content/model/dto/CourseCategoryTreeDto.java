@@ -18,5 +18,5 @@ import java.util.List;
 @Setter
 public class CourseCategoryTreeDto extends CourseCategory {
 
-    List<Object> childrenTreeNodes;
+    List childrenTreeNodes;
 }

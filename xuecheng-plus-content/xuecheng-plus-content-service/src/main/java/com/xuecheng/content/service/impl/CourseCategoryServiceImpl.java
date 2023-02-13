@@ -35,7 +35,7 @@ public class CourseCategoryServiceImpl extends ServiceImpl<CourseCategoryMapper,
         ArrayList<CourseCategoryTreeDto> courseCategoryTreeDtos = new ArrayList<>();
 
         // 为了方便找子结点的父结点，定义一个map
-        Map<String, CourseCategoryTreeDto> nodeMap = new HashMap<>();
+        HashMap<String, CourseCategoryTreeDto> nodeMap = new HashMap<>();
 
         // 将数据封装到list中，只包括了根结点的直接下属结点
         categoryTreeDtos.stream().forEach(item -> {
@@ -48,9 +48,9 @@ public class CourseCategoryServiceImpl extends ServiceImpl<CourseCategoryMapper,
             // 找到该结点的父结点对象
             CourseCategoryTreeDto parentNode = nodeMap.get(parentid);
             if (parentNode != null) {
-                List childrenTreeNodes = parentNode.getChildrenTreeNodes();
+                List<CourseCategoryTreeDto> childrenTreeNodes = parentNode.getChildrenTreeNodes();
                 if (childrenTreeNodes == null) {
-                    parentNode.setChildrenTreeNodes(new ArrayList<>());
+                    parentNode.setChildrenTreeNodes(new ArrayList<CourseCategoryTreeDto>());
                 }
                 // 找到子结点，放到父结点的childrenTreeNodes属性中
                 parentNode.getChildrenTreeNodes().add(item);
@@ -58,6 +58,6 @@ public class CourseCategoryServiceImpl extends ServiceImpl<CourseCategoryMapper,
         });
 
         // 返回list中只包括了根结点的直接下属结点
-        return categoryTreeDtos;
+        return courseCategoryTreeDtos;
     }
 }
