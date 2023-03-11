@@ -134,9 +134,9 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         }
 
         // 校验本机构只能修改本机构的课程
-        if (!companyId.equals(courseBase.getCompanyId())) {
-            XueChengPlusException.cast("只允许修改本机构的课程");
-        }
+        //if (!companyId.equals(courseBase.getCompanyId())) {
+            //XueChengPlusException.cast("只允许修改本机构的课程");
+        //}
 
         // 封装基本信息的数据
         BeanUtils.copyProperties(dto, courseBase);

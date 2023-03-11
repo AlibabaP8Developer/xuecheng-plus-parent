@@ -53,8 +53,8 @@
             <result column="two_courseId" property="courseId"/>
             <result column="two_coursePubId" property="coursePubId"/>
             <association property="teachplanMedia" javaType="com.xuecheng.content.model.po.TeachplanMedia">
-                <result column="teachplanMeidaId" property="id"/>
-                <result column="mediaFilename" property="mediaFilename"/>
+                <result column="teachplanMainId" property="id"/>
+                <result column="mediaFileName" property="mediaFilename"/>
                 <result column="mediaId" property="mediaId"/>
                 <result column="two_id" property="teachplanId"/>
                 <result column="two_courseId" property="courseId"/>
@@ -91,7 +91,7 @@
                  inner join teachplan two on two.parentid = one.id
                  left join teachplan_media tm on two.id = tm.teachplan_id
         where one.parentid = 0
-          and one.course_id = 117
+          and one.course_id = #{courseId}
         order by one.orderby, two.orderby
     </select>
 
