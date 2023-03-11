@@ -1,4 +1,4 @@
-package com.xuecheng.nacos;
+package com.alibaba.nacos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author zyf
  */
-@SpringBootApplication(scanBasePackages = "com.xuecheng.nacos")
+@SpringBootApplication(scanBasePackages = "com.alibaba.nacos")
 @ServletComponentScan
 @EnableScheduling
 public class XuechengNacosApplication {
