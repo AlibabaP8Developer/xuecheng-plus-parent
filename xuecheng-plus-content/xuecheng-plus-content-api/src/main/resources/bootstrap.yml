@@ -6,7 +6,12 @@ server:
 spring:
   application:
     name: xuecheng-plus-content-api-service
-
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: xuecheng-plus-project
 # swagger 文档配置
 swagger:
   title: "学成在线内容管理系统"
