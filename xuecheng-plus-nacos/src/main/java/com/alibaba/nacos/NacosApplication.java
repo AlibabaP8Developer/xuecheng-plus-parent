@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 @SpringBootApplication(scanBasePackages = "com.alibaba.nacos")
 @ServletComponentScan
 @EnableScheduling
-public class XuechengNacosApplication {
+public class NacosApplication {
 
     /** 是否单机模式启动 */
     private static String standalone = "true";
@@ -30,7 +30,7 @@ public class XuechengNacosApplication {
         System.setProperty("server.tomcat.basedir","logs");
         //自定义启动端口号
         System.setProperty("server.port","8848");
-        SpringApplication.run(XuechengNacosApplication.class, args);
+        SpringApplication.run(NacosApplication.class, args);
     }
 
     /**
