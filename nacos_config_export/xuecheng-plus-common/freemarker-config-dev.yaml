@@ -1,0 +1,12 @@
+spring:
+  freemarker:
+    enabled: true
+    cache: false   #关闭模板缓存，方便测试
+    settings:
+      template_update_delay: 0
+    suffix: .ftl   #页面模板后缀名
+    charset: UTF-8
+    template-loader-path: classpath:/templates/   #页面模板位置(默认为 classpath:/templates/)
+    resources:
+      add-mappings: false   #关闭项目中的静态资源映射(static、resources文件夹下的资源)
+    

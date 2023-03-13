@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /orders
+  port: 63030
+
+
+#配置本地优先
+spring:
+ cloud:
+  config:
+    override-none: true

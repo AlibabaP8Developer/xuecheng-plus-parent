@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /search
+  port: 63080
+
+elasticsearch:
+  hostlist: 192.168.101.65:9200 #多个结点中间用逗号分隔
+  course:
+    index: course-publish
+    source_fields: id,name,grade,mt,st,charge,pic,price,originalPrice,teachmode,validDays,createDate

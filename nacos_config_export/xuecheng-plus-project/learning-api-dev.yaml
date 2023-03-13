@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /learning
+  port: 63020
+
+
+#配置本地优先
+spring:
+ cloud:
+  config:
+    override-none: true
