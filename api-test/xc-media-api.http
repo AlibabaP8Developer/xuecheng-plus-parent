@@ -1,0 +1,5 @@
+### 课程查询接口 网关
+POST http://{{media_host}}/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+
