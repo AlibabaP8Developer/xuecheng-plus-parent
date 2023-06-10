@@ -3,7 +3,6 @@
     <el-tabs class="el-tabs" v-model="activeName" type="border-card" @tab-click="handleClick">
       <el-tab-pane label="网站首页" >
         <a href="http://www.xuecheng-plus.com">学成在线首页</a>
-       
       </el-tab-pane>
       <el-tab-pane label="机构管理" name="first">
         <router-link to="/organization/company">机构资料</router-link>

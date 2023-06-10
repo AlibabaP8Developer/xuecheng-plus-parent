@@ -12,6 +12,7 @@ import com.xuecheng.content.service.CourseBaseInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -54,13 +55,17 @@ public class CourseBaseInfoController {
     @ApiOperation("根据ID查询课程")
     @GetMapping("/course/{courseId}")
     public CourseBaseInfoDto getCourseBaseById(@PathVariable("courseId") Long courseId) {
-
+        // 获取当前用户的身份
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        System.out.println("获取当前用户的身份："+principal);
         return courseBaseInfoService.getCourseBaseInfo(courseId);
     }
 
     @ApiOperation("修改课程")
     @PutMapping("/course")
-    public CourseBaseInfoDto modifyCourseBase(Long companyId, @RequestBody @Validated(ValidationGroups.Update.class) EditCourseDto editCourseDto) {
+    public CourseBaseInfoDto modifyCourseBase(@RequestBody @Validated(ValidationGroups.Update.class) EditCourseDto editCourseDto) {
+        // 获取到用户所属机构ID
+        Long companyId = 12345L;
         return courseBaseInfoService.updateCourseBase(companyId, editCourseDto);
     }
 

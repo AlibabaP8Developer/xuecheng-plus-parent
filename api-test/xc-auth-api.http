@@ -1,0 +1,23 @@
+### 认证
+
+#1、get请求获取授权码
+#地址: http://localhost:63070/auth/oauth/authorize?client_id=XcWebApp&response_type=code&scope=all&redirect_uri=http://www.51xuecheng.cn
+#参数列表如下：
+#•client_id：客户端准入标识。
+#•response_type：授权码模式固定为code。
+#•scope：客户端权限。
+#•redirect_uri：跳转uri，当授权码申请成功后会跳转到此地址，并在后边带上code参数（授权码）。
+#输入账号zhangsan、密码123登录成功，输入/oauth/authorize?client_id=XcWebApp&response_type=code&scope=all&redirect_uri=http://www.51xuecheng.cn
+#显示授权页面
+
+### 第一步申请授权码(浏览器请求)/oauth/authorize?client_id=c1&response_type=code&scope=all&redirect_uri=http://www.51xuecheng.cn
+### 第二步申请令牌
+POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=authorization_code&code=ZuCx4R&redirect_uri=http://www.51xuecheng.cn
+
+### 密码模式
+POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
+
+### 校验JWT令牌
+POST {{auth_host}}/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE2ODYzOTc0NjYsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6ImQzMjA1NjU1LWI2MWYtNDFkZC04YzBjLTQ1ZjI2NTZmYmNmOSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.t5_9y4qCmiaBCKoVAQOr7z8mWj5aqRZC3mOmNlye6WU
+
+
