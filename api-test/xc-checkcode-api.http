@@ -1,0 +1,6 @@
+### 课程查询接口 网关
+### 申请验证码
+POST {{checkcode_host}}/checkcode/pic
+
+### 校验验证码
+POST {{checkcode_host}}/checkcode/verify?key=checkcode:5be76b077ac34170ad9887d85747906b&code=OSOS
