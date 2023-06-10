@@ -14,7 +14,7 @@ db:
   password:
     '0': ${MYSQL-PWD:Dcp#7ujm}
   url:
-    '0': jdbc:mysql://${MYSQL-HOST:139.198.181.54}:${MYSQL-PORT:3306}/${MYSQL-DB:all-book-nacos}?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    '0': jdbc:mysql://${MYSQL-HOST:139.198.181.54}:${MYSQL-PORT:3306}/${MYSQL-DB:xc-nacos}?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
   user:
     '0': ${MYSQL-USER:root}
 management:

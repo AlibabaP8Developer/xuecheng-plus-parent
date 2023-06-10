@@ -5,21 +5,50 @@ server:
 #微服务配置
 spring:
   application:
-    name: xuecheng-plus-content-api-service
+    name: content-service # 服务名
+  profiles:
+    active: dev # 环境名
   cloud:
     nacos:
       server-addr: localhost:8848
       discovery:
         namespace: dev
         group: xuecheng-plus-project
+      config: # 配置文件相关相关信息
+        namespace: dev
+        group: xuecheng-plus-project
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: xuecheng-plus-project
+            refresh: true
+        shared-configs: # 公用配置文件
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+
 # swagger 文档配置
-swagger:
-  title: "学成在线内容管理系统"
-  description: "内容系统管理系统对课程相关信息进行业务管理数据"
-  base-package: com.xuecheng.content
-  enabled: true
-  version: 1.0.0
+#swagger:
+#  title: "学成在线内容管理系统"
+#  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+#  base-package: com.xuecheng.content
+#  enabled: true
+#  version: 1.0.0
 
 # 日志文件配置路径
-logging:
-  config: classpath:log4j2-dev.xml
+#logging:
+#  config: classpath:log4j2-dev.xml
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: com.xiaomi.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0

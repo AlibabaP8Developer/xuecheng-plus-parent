@@ -1,3 +1,13 @@
+### 课程查询接口 网关
+POST http://{{gateway_host}}/content/course/list?pageNo=1&pageSize=5
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
 ### 课程查询接口
 POST http://{{content_host}}/content/course/list?pageNo=1&pageSize=5
 Content-Type: application/json

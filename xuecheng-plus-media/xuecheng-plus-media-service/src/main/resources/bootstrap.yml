@@ -1,10 +1,9 @@
-#微服务配置
 spring:
   application:
-    name: gateway
+    name: media-service
   cloud:
     nacos:
-      server-addr: localhost:8848
+      server-addr: 192.168.101.65:8848
       discovery:
         namespace: ${spring.profiles.active}
         group: xuecheng-plus-project
@@ -13,10 +12,14 @@ spring:
         group: xuecheng-plus-project
         file-extension: yaml
         refresh-enabled: true
-        shared-configs:
-          - data-id: logging-${spring.profiles.active}.yaml
-            group: xuecheng-plus-common
-            refresh: true
+      shared-configs:
+        - data-id: logging-${spring.profiles.active}.yaml
+          group: xuecheng-plus-common
+          refresh: true
 
+#profiles默认为dev
   profiles:
     active: dev
+
+
+
