@@ -14,6 +14,7 @@
         <module>xuecheng-plus-content</module>
         <module>xuecheng-plus-generator</module>
         <module>xuecheng-plus-media</module>
+        <module>xuecheng-plus-auth</module>
     </modules>
 
     <name>xuecheng-plus-parent</name>
