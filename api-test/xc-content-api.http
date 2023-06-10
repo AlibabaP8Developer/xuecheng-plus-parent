@@ -55,3 +55,9 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlb
 ### 课程计划查询
 GET {{content_host}}/content/teachplan/117/tree-nodes
 Content-Type: application/json
+
+### 通过网关进行课程查询 带JWT令牌
+GET {{gateway_host}}/content/course/40
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE2ODY0MDI5MTMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjdjNWY1YjY5LTRkODUtNDk4Zi1iZmU3LTE2OGU1ZjNmMzcxOSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.F_G_fWHy3nVGd5GPvFN-a_z6yg3qo18wovvj-qd7-UE
+
