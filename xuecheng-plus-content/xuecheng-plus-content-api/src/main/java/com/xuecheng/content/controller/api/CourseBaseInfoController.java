@@ -9,6 +9,8 @@ import com.xuecheng.content.model.dto.EditCourseDto;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.service.CourseBaseInfoService;
+import com.xuecheng.content.util.SecurityUtil;
+import com.xuecheng.content.util.XcUser;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,8 +58,8 @@ public class CourseBaseInfoController {
     @GetMapping("/course/{courseId}")
     public CourseBaseInfoDto getCourseBaseById(@PathVariable("courseId") Long courseId) {
         // 获取当前用户的身份
-        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        System.out.println("获取当前用户的身份："+principal);
+        XcUser user = SecurityUtil.getUser();
+        System.out.println("获取当前用户的身份："+user.getUsername());
         return courseBaseInfoService.getCourseBaseInfo(courseId);
     }
 
