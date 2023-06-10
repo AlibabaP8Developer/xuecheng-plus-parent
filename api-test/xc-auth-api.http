@@ -15,9 +15,9 @@
 POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=authorization_code&code=ZuCx4R&redirect_uri=http://www.51xuecheng.cn
 
 ### 密码模式
-POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
+POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=t1&password=111111
 
 ### 校验JWT令牌
-POST {{auth_host}}/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE2ODYzOTc0NjYsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6ImQzMjA1NjU1LWI2MWYtNDFkZC04YzBjLTQ1ZjI2NTZmYmNmOSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.t5_9y4qCmiaBCKoVAQOr7z8mWj5aqRZC3mOmNlye6WU
+POST {{auth_host}}/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ0MSIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE2ODY0MTY3NDcsImF1dGhvcml0aWVzIjpbInRlc3QiXSwianRpIjoiMjU3NDU4MzgtYjVhYi00OWRmLWJlZGMtYjNlMzBmMDdjM2RhIiwiY2xpZW50X2lkIjoiWGNXZWJBcHAifQ.ZFkaO0Fb4kFFoQIPUiZb9lRvu93b5-kDhy2TkFoTwO0
 
 
