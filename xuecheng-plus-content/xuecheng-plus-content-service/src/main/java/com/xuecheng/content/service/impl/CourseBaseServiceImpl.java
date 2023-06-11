@@ -225,7 +225,7 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
 
 
     @Override
-    public PageResult<CourseBase> queryCourseBaseList(PageParams params, QueryCourseParamsDto paramsDto) {
+    public PageResult<CourseBase> queryCourseBaseList(Long companyId, PageParams params, QueryCourseParamsDto paramsDto) {
         LambdaQueryWrapper<CourseBase> wrapper = new LambdaQueryWrapper<>();
         // 拼接查询条件
         // 根据课程名称模糊查询
@@ -235,6 +235,11 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         // 根据课程发布状态
         wrapper.eq(StringUtils.isNotEmpty(paramsDto.getPublishStatus()), CourseBase::getStatus, paramsDto.getPublishStatus());
         wrapper.orderByDesc(CourseBase::getCreateDate);
+
+        // todo 按课程发布状态查询
+        // todo 根据培训机构ID拼装查询条件
+        wrapper.eq(CourseBase::getCompanyId, companyId);
+
         // 分页参数
         Page<CourseBase> page = new Page<>(params.getPageNo(), params.getPageSize());
         // 分页查询

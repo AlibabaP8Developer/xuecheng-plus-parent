@@ -53,5 +53,5 @@ public interface CourseBaseInfoService extends IService<CourseBase> {
      * @param paramsDto 查询条件
      * @return 结果
      */
-    PageResult<CourseBase> queryCourseBaseList(PageParams params, QueryCourseParamsDto paramsDto);
+    PageResult<CourseBase> queryCourseBaseList(Long companyId, PageParams params, QueryCourseParamsDto paramsDto);
 }

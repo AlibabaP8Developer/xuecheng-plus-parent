@@ -13,6 +13,7 @@ import com.xuecheng.content.util.SecurityUtil;
 import com.xuecheng.content.util.XcUser;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -42,7 +43,16 @@ public class CourseBaseInfoController {
     @PreAuthorize("hasAuthority('xc_teachmanager_course_list')")
     @PostMapping("/course/list")
     public PageResult<CourseBase> list(PageParams pageParams, @RequestBody QueryCourseParamsDto queryCourseParams) {
-        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParams);
+
+        // 得到当前登录用户
+        XcUser user = SecurityUtil.getUser();
+        String companyIdStr = user.getCompanyId();
+        Long companyId = 0L;
+        if (StringUtils.isNotBlank(companyIdStr)) {
+            companyId = Long.parseLong(companyIdStr);
+        }
+
+        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(companyId, pageParams, queryCourseParams);
         return courseBasePageResult;
     }
 
