@@ -15,6 +15,10 @@ public class AuthApplication {
         SpringApplication.run(AuthApplication.class, args);
     }
 
+    /**
+     * feign远程登录
+     * @return
+     */
     @Bean
     public RestTemplate restTemplate() {
         RestTemplate restTemplate = new RestTemplate(new OkHttp3ClientHttpRequestFactory());
