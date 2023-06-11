@@ -2,9 +2,11 @@ package com.xuecheng.ucenter.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.xuecheng.ucenter.mapper.XcMenuMapper;
 import com.xuecheng.ucenter.mapper.XcUserMapper;
 import com.xuecheng.ucenter.model.dto.AuthParamsDto;
 import com.xuecheng.ucenter.model.dto.XcUserExt;
+import com.xuecheng.ucenter.model.po.XcMenu;
 import com.xuecheng.ucenter.model.po.XcUser;
 import com.xuecheng.ucenter.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +17,17 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Service
 public class UserServiceImpl implements UserDetailsService {
 
     @Autowired
     private XcUserMapper userMapper;
+
+    @Autowired
+    private XcMenuMapper menuMapper;
 
     @Autowired
     ApplicationContext applicationContext;
@@ -50,7 +58,6 @@ public class UserServiceImpl implements UserDetailsService {
         AuthService authService = applicationContext.getBean(beanName, AuthService.class);
         // 调用统一execute方法完成认证
         XcUserExt xcUserExt = authService.execute(authParamsDto);
-        // 封装xcUserExt用户信息为UserDetails
 
         //// 根据username账号查询数据库
         //String username = authParamsDto.getUsername();
@@ -62,6 +69,8 @@ public class UserServiceImpl implements UserDetailsService {
         //// 如果查询到了用户，拿到正确的密码，最终封装成一个UserDetails对象给spring security框架返回，由框架进行密码比对
         //String password = xcUser.getPassword();
 
+        // 封装xcUserExt用户信息为UserDetails
+        // 根据UserDetails对象生成令牌
         UserDetails userDetails = getUserPrincipal(xcUserExt);
         return userDetails;
     }
@@ -75,8 +84,21 @@ public class UserServiceImpl implements UserDetailsService {
      */
     public UserDetails getUserPrincipal(XcUserExt xcUser){
         String password = xcUser.getPassword();
-        // 权限
-        String[] authorities = {"test"};
+
+        String[] authorities = {};
+        // 根据用户ID查询用户权限
+        List<XcMenu> xcMenus = menuMapper.selectPermissionByUserId(xcUser.getId());
+        if (xcMenus.size()>0) {
+            List<String> permissions = new ArrayList<>();
+            xcMenus.forEach(xcMenu -> {
+                String code = xcMenu.getCode();
+                // 拿到了用户拥有的权限标识符
+                permissions.add(code);
+            });
+            // 将permissions转成数组
+            authorities = permissions.toArray(permissions.toArray(new String[0]));
+        }
+
         // 将用户信息转JSON
         xcUser.setPassword(null);
         String userJson = JSON.toJSONString(xcUser);
