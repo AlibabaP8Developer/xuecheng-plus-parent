@@ -46,6 +46,8 @@ public class MediaFileServiceImpl implements MediaFileService {
     MediaFilesMapper mediaFilesMapper;
     @Autowired
     MinioClient minioClient;
+    @Autowired
+    MediaFileService currentProxy;
 
     // 存储普通文件
     @Value("${minio.bucket.files}")
@@ -80,7 +82,7 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @param localFilePath       本地文件路径
      * @return
      */
-    @Transactional
+    @Override
     public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
         // 得到扩展名
         String filename = uploadFileParamsDto.getFilename();
@@ -99,7 +101,8 @@ public class MediaFileServiceImpl implements MediaFileService {
             XueChengPlusException.cast("上传文件失败");
         }
         // 入库信息
-        MediaFiles mediaFiles = addMediaFilesToDb(companyId, fileMd5, uploadFileParamsDto, bucketMediaFiles, objectName);
+        // this：不是代理对象，而是原始对象，不能对事务进行控制，事务必须是代理对象才能生效
+        MediaFiles mediaFiles = currentProxy.addMediaFilesToDb(companyId, fileMd5, uploadFileParamsDto, bucketMediaFiles, objectName);
         if (mediaFiles == null) {
             XueChengPlusException.cast("文件上传后保存文件信息失败");
         }
@@ -117,7 +120,7 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @param bucket              桶
      * @param objectName          对象名称
      * @return com.xuecheng.media.model.po.MediaFiles
-     * @description 将文件信息添加到文件表
+     * @description 将文件信息添加到数据库文件表
      * @author Mr.M
      * @date 2022/10/12 21:22
      */
