@@ -22,7 +22,7 @@ public class BigFileTest {
         // 分块文件存储路径
         String chunkFilePath = "/Users/lizhenghang/workspace/java/itheima/video_chunk/";
         // 分块文件大小
-        int chunkSize = 1024 * 1024 * 2;
+        int chunkSize = 1024 * 1024 * 5;
         // 分块文件个数
         int chunkNum = (int) Math.ceil(sourceFile.length() * 1.0 / chunkSize);
         // 使用流从源文件读取数据，向分块文件中写数据

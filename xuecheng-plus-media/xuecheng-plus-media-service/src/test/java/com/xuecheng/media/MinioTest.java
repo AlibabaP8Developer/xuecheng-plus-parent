@@ -2,19 +2,17 @@ package com.xuecheng.media;
 
 import com.j256.simplemagic.ContentInfo;
 import com.j256.simplemagic.ContentInfoUtil;
-import io.minio.GetObjectArgs;
-import io.minio.MinioClient;
-import io.minio.RemoveObjectArgs;
-import io.minio.UploadObjectArgs;
+import io.minio.*;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.MediaType;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FilterInputStream;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class MinioTest {
     static MinioClient minioClient =
@@ -29,7 +27,7 @@ public class MinioTest {
             // 通过扩展名得到媒体资源类型 mimeType
             ContentInfo extensionMatch = ContentInfoUtil.findExtensionMatch(".mp4");
             String mimeType = MediaType.APPLICATION_OCTET_STREAM_VALUE;//通用mimeType，字节流
-            if (extensionMatch!=null) {
+            if (extensionMatch != null) {
                 mimeType = extensionMatch.getMimeType();
             }
 
@@ -84,5 +82,64 @@ public class MinioTest {
             e.printStackTrace();
         }
     }
+
+    /**
+     * 将分块文件上传到minio
+     */
+    @Test
+    public void uploadChunk() throws Exception {
+        for (int i = 0; i < 12; i++) {
+            UploadObjectArgs testbucket = UploadObjectArgs.builder()
+                    .bucket("testbucket")
+                    .object("/chunk/minio/" + i)// 对象名 minio中的路径和 文件名
+                    .filename("/Users/lizhenghang/workspace/java/itheima/video_chunk/" + i) // 指定本地文件路径
+                    .build();
+            minioClient.uploadObject(testbucket);
+            System.out.println("上传" + i + "成功");
+        }
+    }
+
+    /**
+     * 调用minio接口合并分块
+     */
+    @Test
+    public void testMerge() throws Exception {
+        //List<ComposeSource> sources = new ArrayList<>();
+        //for (int i = 0; i < 56; i++) {
+        //    // 指定分块的文件信息
+        //    ComposeSource composeSource = ComposeSource.builder()
+        //            .bucket("testbucket")
+        //            .object("chunk/minio/" + i)
+        //            .build();
+        //    sources.add(composeSource);
+        //}
+
+        List<ComposeSource> sources = Stream.iterate(0, i -> ++i).limit(12)
+                .map(i -> ComposeSource.builder()
+                        .bucket("testbucket")
+                        .object("/chunk/minio/" + i)
+                        .build()
+                )
+                .collect(Collectors.toList());
+
+        // 合并后的objectName等信息
+        ComposeObjectArgs composeObjectArgs = ComposeObjectArgs.builder()
+                .bucket("testbucket")
+                .object("袁腾飞聊举报老师：连皇帝都怕这种人渣.mp4")
+                .sources(sources) // 指定源文件
+                .build();
+        // 合并文件
+        minioClient.composeObject(composeObjectArgs);
+
+        /*
+            java.lang.IllegalArgumentException: source testbucket/chunk/minio/0: size 1048576 must be greater than 5242880
+            报错原因：默认的分块大小为5M
+         */
+    }
+
+    /**
+     * 批量清理分块文件
+     */
+
 
 }
