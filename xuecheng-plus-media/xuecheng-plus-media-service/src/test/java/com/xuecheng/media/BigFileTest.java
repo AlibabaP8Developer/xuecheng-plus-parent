@@ -1,8 +1,10 @@
 package com.xuecheng.media;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.RandomAccessFile;
 import java.util.Arrays;
 import java.util.Collections;
@@ -50,7 +52,8 @@ public class BigFileTest {
     public void testMerge() throws Exception {
         // 块文件目录
         File chunkFolder = new File("/Users/lizhenghang/workspace/java/itheima/video_chunk/");
-
+        // 源文件
+        File sourceFile = new File("/Users/lizhenghang/Desktop/袁腾飞聊举报老师：连皇帝都怕这种人渣 #lifeano漫聊 230615.mp4");
         // 合并后的文件
         File mergeFile = new File("/Users/lizhenghang/workspace/java/itheima/video_chunk/袁腾飞聊举报老师:连皇帝都怕这种人渣.mp4");
 
@@ -59,9 +62,7 @@ public class BigFileTest {
         // 将数组转成list
         List<File> filesList = Arrays.asList(files);
         // new Comparator<File》
-        Collections.sort(filesList, (o1, o2) -> {
-            return Integer.parseInt(o1.getName()) - Integer.parseInt(o2.getName());
-        });
+        Collections.sort(filesList, (o1, o2) -> Integer.parseInt(o1.getName()) - Integer.parseInt(o2.getName()));
         // 向合并文件写的流
         RandomAccessFile raf_rw = new RandomAccessFile(mergeFile, "rw");
         // 缓冲区
@@ -77,6 +78,16 @@ public class BigFileTest {
             raf_r.close();
         }
         raf_rw.close();
+        // 合并文件完成后对合并的文件校验
+        FileInputStream fileInputStreamMerge = new FileInputStream(mergeFile);
+        FileInputStream fileInputStreamSource = new FileInputStream(sourceFile);
+        String md5Merge = DigestUtils.md5Hex(fileInputStreamMerge);
+        String md5Source = DigestUtils.md5Hex(fileInputStreamSource);
+        if (md5Merge.equals(md5Source)) {
+            System.out.println("文件合并成功");
+        } else {
+            System.out.println("文件合并失败");
+        }
     }
 
 }
