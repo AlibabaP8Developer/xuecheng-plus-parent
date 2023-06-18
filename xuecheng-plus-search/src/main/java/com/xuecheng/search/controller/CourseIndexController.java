@@ -42,6 +42,5 @@ public class CourseIndexController {
             XueChengPlusException.cast("添加课程索引失败");
         }
         return result;
-
     }
 }
