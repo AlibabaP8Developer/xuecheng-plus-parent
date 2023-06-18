@@ -7,14 +7,17 @@ import com.j256.simplemagic.ContentInfoUtil;
 import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
+import com.xuecheng.base.model.RestResponse;
 import com.xuecheng.media.mapper.MediaFilesMapper;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
 import com.xuecheng.media.service.MediaFileService;
+import io.minio.GetObjectArgs;
 import io.minio.MinioClient;
 import io.minio.UploadObjectArgs;
+import io.minio.errors.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -27,7 +30,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.text.SimpleDateFormat;
+import java.io.FilterInputStream;
+import java.io.IOException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -161,6 +167,113 @@ public class MediaFileServiceImpl implements MediaFileService {
     }
 
     /**
+     * @param fileMd5 文件的md5
+     * @return com.xuecheng.base.model.RestResponse<java.lang.Boolean> false不存在，true存在
+     * @description 检查文件是否存在
+     * @author Mr.M
+     * @date 2022/9/13 15:38
+     */
+    @Override
+    public RestResponse<Boolean> checkFile(String fileMd5) {
+        // 先查询数据库
+        MediaFiles mediaFiles = mediaFilesMapper.selectById(fileMd5);
+        if (mediaFiles != null) {
+            // 桶
+            String bucket = mediaFiles.getBucket();
+            String filePath = mediaFiles.getFilePath();
+            // 如果数据库存在再查询 minio
+            GetObjectArgs getObjectArgs = GetObjectArgs.builder()
+                    .bucket(bucket)  // 指定桶
+                    .object(filePath) // 指定删除的文件名
+                    .build();
+            try {
+                // 查询远程服务获取到一个流对象
+                FilterInputStream inputStream = minioClient.getObject(getObjectArgs);
+                if (inputStream != null) {
+                    // 文件已经存在
+                    return RestResponse.success(true);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+        // 文件不存在
+        return RestResponse.success(false);
+    }
+
+    /**
+     * @param fileMd5    文件的md5
+     * @param chunkIndex 分块序号
+     * @return com.xuecheng.base.model.RestResponse<java.lang.Boolean> false不存在，true存在
+     * @description 检查分块是否存在
+     * @author Mr.M
+     * @date 2022/9/13 15:39
+     */
+    @Override
+    public RestResponse<Boolean> checkChunk(String fileMd5, int chunkIndex) {
+
+        // 分块存储路径是：md5前两位为两个子目录，chunk存储分块文件
+        // 根据md5得到分块文件所在目录的存储路径
+        String chunkFileFolderPath = getChunkFileFolderPath(fileMd5);
+
+        // 如果数据库存在再查询 minio
+        GetObjectArgs getObjectArgs = GetObjectArgs.builder()
+                .bucket(bucketVideofiles)  // 指定桶
+                .object(chunkFileFolderPath + chunkIndex) // 指定删除的文件名
+                .build();
+        try {
+            // 查询远程服务获取到一个流对象
+            FilterInputStream inputStream = minioClient.getObject(getObjectArgs);
+            if (inputStream != null) {
+                // 文件已经存在
+                return RestResponse.success(true);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            log.error("错误消息：1::{}, 2::{}, 3::{}", e.getMessage(), e.getCause(), e.getLocalizedMessage());
+        }
+        // 文件不存在
+        return RestResponse.success(false);
+    }
+
+    /**
+     * @param fileMd5            文件md5
+     * @param chunk              分块序号
+     * @param localChunkFilePath 分块文件本地路径
+     * @return com.xuecheng.base.model.RestResponse
+     * @description 上传分块
+     * @author Mr.M
+     * @date 2022/9/13 15:50
+     */
+    @Override
+    public RestResponse uploadChunk(String fileMd5, int chunk, String localChunkFilePath) {
+        // 分块文件的路径
+        String chunkFilePath = getChunkFileFolderPath(fileMd5) + chunk;
+
+        String mimeType = getMimeType(null);
+        // 将分块文件上传到minio
+        boolean b = addMediaFilesToMinIO(localChunkFilePath, mimeType, bucketVideofiles, chunkFilePath);
+        if (!b) {
+            log.debug("上传分块文件失败:{}", chunkFilePath);
+            return RestResponse.validfail(false, "上传分块文件失败");
+        }
+        // 上传成功
+        log.debug("上传分块文件成功:{}", chunkFilePath);
+        return RestResponse.success(true);
+    }
+
+    /**
+     * 得到分块文件的目录
+     *
+     * @param fileMd5
+     * @return
+     */
+    private String getChunkFileFolderPath(String fileMd5) {
+        return fileMd5.substring(0, 1) + "/" + fileMd5.substring(1, 2) + "/" + fileMd5 + "/" + "chunk" + "/";
+    }
+
+    /**
      * 获取文件默认存储目录路径 年/月/日
      *
      * @return
@@ -220,7 +333,7 @@ public class MediaFileServiceImpl implements MediaFileService {
         UploadObjectArgs testbucket = null;
         try {
             testbucket = UploadObjectArgs.builder()
-                    .bucket(bucket).object("第3章媒资管理模块v3.1.docx")
+                    .bucket(bucket)
                     .object(objectName)// 对象名
                     .filename(localFilePath) // 指定本地文件路径
                     .contentType(mimeType)//默认根据扩展名确定文件内容类型，也可以指定
@@ -237,4 +350,6 @@ public class MediaFileServiceImpl implements MediaFileService {
             return false;
         }
     }
+
+
 }

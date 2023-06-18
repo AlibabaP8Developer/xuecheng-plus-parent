@@ -88,7 +88,7 @@ export default class MediaAddDialog extends Vue {
     this.fileList = fileList
     uploadByPieces({
       file,
-      pieceSize: 1, //分片大小
+      pieceSize: 5, //分片大小
       success: (data) => {
         file.percentage = (data.num/data.chunkCount) * 100
         console.log('success::' + data)
