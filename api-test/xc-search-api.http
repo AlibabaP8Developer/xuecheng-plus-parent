@@ -20,7 +20,6 @@ Content-Type: application/json
   "originalPrice" : 200.0,
   "pic" : "/mediafiles/2022/09/20/1d0f0e6ed8a0c4a89bfd304b84599d9c.png",
   "price" : 100.0,
-  "/mediafiles/2022/09/20/1d0f0e6ed8a0c4a89bfd304b84599d9c.png",
   "remark" : "没有备注",
   "st" : "1-3-2",
   "stName" : "Java语言",
