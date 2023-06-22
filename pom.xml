@@ -17,6 +17,7 @@
         <module>xuecheng-plus-auth</module>
         <module>xuecheng-plus-checkcode</module>
         <module>xuecheng-plus-search</module>
+        <module>xuecheng-plus-message-sdk</module>
     </modules>
 
     <name>xuecheng-plus-parent</name>
