@@ -2,6 +2,9 @@
 spring:
   application:
     name: media-api
+  servlet:
+    multipart:
+      max-file-size: 90000MB
   cloud:
     nacos:
       server-addr: localhost:8848
@@ -26,4 +29,3 @@ spring:
             refresh: true
   profiles:
     active: dev
-

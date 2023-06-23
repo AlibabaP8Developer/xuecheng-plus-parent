@@ -270,7 +270,7 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @return
      */
     private String getChunkFileFolderPath(String fileMd5) {
-        return fileMd5.substring(0, 1) + "/" + fileMd5.substring(1, 2) + "/" + fileMd5 + "/" + "chunk" + "/";
+        return fileMd5.charAt(0) + "/" + fileMd5.charAt(1) + "/" + fileMd5 + "/chunk/";
     }
 
     /**
@@ -310,7 +310,7 @@ public class MediaFileServiceImpl implements MediaFileService {
      */
     public String getMimeType(String extension) {
         if (StringUtils.isBlank(extension)) {
-            return "";
+            extension = "";
         }
         ContentInfo extensionMatch = ContentInfoUtil.findExtensionMatch(extension);
         String mimeType = MediaType.APPLICATION_OCTET_STREAM_VALUE;//通用mimeType，字节流
@@ -330,17 +330,16 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @return
      */
     public boolean addMediaFilesToMinIO(String localFilePath, String mimeType, String bucket, String objectName) {
-        UploadObjectArgs testbucket = null;
         try {
-            testbucket = UploadObjectArgs.builder()
-                    .bucket(bucket)
-                    .object(objectName)// 对象名
+            UploadObjectArgs uploadObjectArgs = UploadObjectArgs.builder()
+                    .bucket(bucket) // 桶
                     .filename(localFilePath) // 指定本地文件路径
+                    .object(objectName)// 对象名
                     .contentType(mimeType)//默认根据扩展名确定文件内容类型，也可以指定
                     .build();
 
             // 上传文件
-            minioClient.uploadObject(testbucket);
+            minioClient.uploadObject(uploadObjectArgs);
             log.debug("上传文件到minio成功,bucket:{}, mimeType：{}, localFilePath: {}, objectName: {}", bucket, mimeType, localFilePath, objectName);
             return true;
         } catch (Exception e) {
