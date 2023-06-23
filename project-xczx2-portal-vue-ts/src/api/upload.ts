@@ -14,7 +14,7 @@ export async function upRegister(params: any) {
 export async function checkchunk(params: any) {
     const { data } = await createFormAPI('/media/upload/checkchunk', 'post', params, 'application/x-www-form-urlencoded;')
     return data
-}  
+}
 
 // ### 上传分块文件
 // fileMd5=c5c75d70f382e6016d2f506d134eee11&chunk=1 Content-Type: multipart/form-data; boundary=WebAppBoundary
