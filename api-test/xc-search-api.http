@@ -2,7 +2,11 @@
 GET {{search_host}}/search/course/list?pageNo=1&pageSize=16&keywords=spring
 Content-Type: application/json
 
-### 添加索引
+### 搜索课程
+GET {{search_host}}/search/course/list?pageNo=1&keywords=spring
+Content-Type: application/json
+
+### 添加课程索引
 POST {{search_host}}/search/index/course
 Content-Type: application/json
 
