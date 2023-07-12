@@ -1,0 +1,5 @@
+Mac电脑
+jdk1.8
+Mac上安装nginx与Linux安装方法相同
+xc-ui-pc-static-portal是网站前台，配置到nginx，nginx启动后，访问：http://www.51xuecheng.cn/
+配置hosts
