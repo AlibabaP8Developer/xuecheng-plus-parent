@@ -17,6 +17,13 @@ import com.xuecheng.media.model.po.MediaFiles;
 public interface MediaFileService {
 
     /**
+     * 根据媒资ID查询文件信息
+     * @param mediaId
+     * @return
+     */
+    MediaFiles getFileById(String mediaId);
+
+    /**
      * @param pageParams          分页参数
      * @param queryMediaParamsDto 查询条件
      * @return com.xuecheng.base.model.PageResult<com.xuecheng.media.model.po.MediaFiles>
