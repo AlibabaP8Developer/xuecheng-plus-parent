@@ -17,6 +17,11 @@ import java.util.List;
  */
 public interface TeachplanService extends IService<Teachplan> {
 
+    /**
+     * 根据课程ID查询课程计划
+     * @param courseId
+     * @return
+     */
     List<TeachplanDto> findTeachplayTree(Long courseId);
 
     /**
