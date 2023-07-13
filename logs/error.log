@@ -1092,3 +1092,5 @@ java.lang.IllegalArgumentException: Source must not be null
 	at java.lang.Thread.run(Thread.java:748)
 2023-07-13 15:19:44,254 ERROR [http-nio-63040-exec-1][GlobalExceptionHandler.java:32] - 【捕获系统异常】请填写课程计划
 2023-07-13 15:19:51,172 ERROR [http-nio-63040-exec-5][GlobalExceptionHandler.java:32] - 【捕获系统异常】请求上传课程图片
+2023-07-13 15:26:05,652 ERROR [http-nio-63040-exec-8][GlobalExceptionHandler.java:32] - 【捕获系统异常】请填写课程计划
+2023-07-13 15:26:17,125 ERROR [http-nio-63040-exec-10][GlobalExceptionHandler.java:32] - 【捕获系统异常】请求上传课程图片
