@@ -216,18 +216,17 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         CourseCategory mtCategory = courseCategoryMapper.selectById(mt);
         CourseCategory stCategory = courseCategoryMapper.selectById(st);
         if (mtCategory != null) {
-            // 分类名称
+            // 大分类名称
             String mtName = mtCategory.getName();
             courseBaseInfoDto.setMtName(mtName);
         }
         if (stCategory != null) {
-            // 分类名称
+            // 小分类名称
             String stName = stCategory.getName();
             courseBaseInfoDto.setStName(stName);
         }
         return courseBaseInfoDto;
     }
-
 
     @Override
     public PageResult<CourseBase> queryCourseBaseList(Long companyId, PageParams params, QueryCourseParamsDto paramsDto) {
