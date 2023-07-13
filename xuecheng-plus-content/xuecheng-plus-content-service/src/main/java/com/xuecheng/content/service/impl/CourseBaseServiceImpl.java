@@ -198,12 +198,17 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
     public CourseBaseInfoDto getCourseBaseInfo(Long courseId) {
         // 基本信息
         CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        if (courseBase == null) {
+            return null;
+        }
         // 营销信息
         CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
 
         CourseBaseInfoDto courseBaseInfoDto = new CourseBaseInfoDto();
         BeanUtils.copyProperties(courseBase, courseBaseInfoDto);
-        BeanUtils.copyProperties(courseMarket, courseBaseInfoDto);
+        if (courseMarket!=null) {
+            BeanUtils.copyProperties(courseMarket, courseBaseInfoDto);
+        }
 
         // 根据课程分类的ID查询分类的名称
         String mt = courseBase.getMt();
