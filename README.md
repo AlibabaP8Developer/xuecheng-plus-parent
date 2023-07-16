@@ -44,5 +44,9 @@ xuecheng-plus-search：搜索服务
 
 xuecheng-plus-system：系统管理服务
 
+xxl-job
+
 # 技术描述
 
+minio
+elasticsearch
