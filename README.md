@@ -69,4 +69,6 @@ hosts.txt  hosts文件内容
 
 5.推荐Redis：6.x，数据库MySQL：8.x
 
+6.nacos配置自行替换为你用的数据库
+
 项目启动完成后访问：http://www.51xuecheng.cn/#/ 即可
