@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS xc_nacos DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE xc_nacos;
+SET NAMES utf8;
 -- MySQL dump 10.13  Distrib 8.0.26, for Linux (x86_64)
 --
 -- Host: 139.198.181.54    Database: xc-nacos

@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS xc_system DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE xc_system;
+SET NAMES utf8;
 /*
  Navicat Premium Data Transfer
 

@@ -44,9 +44,29 @@ xuecheng-plus-search：搜索服务
 
 xuecheng-plus-system：系统管理服务
 
-xxl-job
+xxl-job：任务调度服务
+
+# docx文件说明
+
+mysqlBackup.sh Linux中的数据库导出SQL文件的shell脚本
+
+hosts.txt  hosts文件内容
 
 # 技术描述
 
-minio
-elasticsearch
+文件服务器：minio
+搜索服务：elasticsearch
+
+# 项目启动
+
+1.数据库脚本依次导入db文件夹下面的SQL脚本
+
+2.无需自行再下载nacos启动文件，直接启动项目中的nacos即可
+
+3.Nginx需安装启动，Nginx配置文件替换为docx文件夹里面的配置文件
+
+4.配置本地hosts
+
+5.推荐Redis：6.x，数据库MySQL：8.x
+
+项目启动完成后访问：http://www.51xuecheng.cn/#/ 即可
