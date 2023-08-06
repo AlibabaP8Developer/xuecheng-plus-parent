@@ -9,10 +9,12 @@ import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.base.model.RestResponse;
 import com.xuecheng.media.mapper.MediaFilesMapper;
+import com.xuecheng.media.mapper.MediaProcessMapper;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
+import com.xuecheng.media.model.po.MediaProcess;
 import com.xuecheng.media.service.MediaFileService;
 import io.minio.*;
 import io.minio.errors.*;
@@ -54,6 +56,8 @@ public class MediaFileServiceImpl implements MediaFileService {
     MinioClient minioClient;
     @Autowired
     MediaFileService currentProxy;
+    @Autowired
+    MediaProcessMapper mediaProcessMapper;
 
     // 存储普通文件
     @Value("${minio.bucket.files}")
@@ -172,9 +176,33 @@ public class MediaFileServiceImpl implements MediaFileService {
                 log.error("向数据库保存文件失败, bucket: {}, objectName: {}", bucket, objectName);
                 return null;
             }
+            // 记录待处理任务
+            addWaitingTask(mediaFiles);
             return mediaFiles;
         }
         return mediaFiles;
+    }
+
+    /**
+     * 添加待处理任务
+     * @param mediaFiles
+     */
+    private void addWaitingTask(MediaFiles mediaFiles) {
+        // 获取文件的mimeType
+        String filename = mediaFiles.getFilename();
+        // 文件扩展名
+        String extension = filename.substring(filename.lastIndexOf("."));
+        String mimeType = getMimeType(extension);
+        if (mimeType.equals("video/x-msvideo")) {
+            // 通过mimeType判断如果是avi视频写入待处理任务
+            MediaProcess mediaProcess = new MediaProcess();
+            BeanUtils.copyProperties(mediaFiles, mediaProcess);
+            // 状态:未处理
+            mediaProcess.setStatus("1");
+            mediaProcess.setCreateDate(LocalDateTime.now());
+            mediaProcess.setFailCount(0); // 失败次数
+            mediaProcessMapper.insert(mediaProcess);
+        }
     }
 
     /**
