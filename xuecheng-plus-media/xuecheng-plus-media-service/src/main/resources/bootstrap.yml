@@ -20,6 +20,3 @@ spring:
 #profiles默认为dev
   profiles:
     active: dev
-
-
-
