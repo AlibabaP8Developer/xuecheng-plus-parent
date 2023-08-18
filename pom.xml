@@ -19,6 +19,8 @@
         <module>xuecheng-plus-search</module>
         <module>xuecheng-plus-message-sdk</module>
         <module>xuecheng-plus-learning</module>
+        <module>xuecheng-plus-orders</module>
+        <module>xxl-job</module>
     </modules>
 
     <name>xuecheng-plus-parent</name>
