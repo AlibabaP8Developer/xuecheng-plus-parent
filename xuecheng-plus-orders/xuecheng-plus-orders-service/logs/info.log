@@ -1,0 +1,620 @@
+2022-10-02 10:33:26,246 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 10:33:26,246 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 10:33:26,910 DEBUG [main][MybatisPlusAutoConfiguration.java:278] - Searching for mappers annotated with @Mapper
+2022-10-02 10:33:26,910 DEBUG [main][MybatisPlusAutoConfiguration.java:278] - Searching for mappers annotated with @Mapper
+2022-10-02 10:33:26,911 DEBUG [main][MybatisPlusAutoConfiguration.java:282] - Using auto-configuration base package 'com.xuecheng.orders'
+2022-10-02 10:33:26,911 DEBUG [main][MybatisPlusAutoConfiguration.java:282] - Using auto-configuration base package 'com.xuecheng.orders'
+2022-10-02 10:33:27,215 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 10:33:27,215 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 10:33:27,225 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.orders]' package. Please check your configuration.
+2022-10-02 10:33:27,225 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.orders]' package. Please check your configuration.
+2022-10-02 10:33:27,404 INFO [main][GenericScope.java:295] - BeanFactory id=fb68bc2b-5232-39c6-ab75-176e28f7e2d3
+2022-10-02 10:33:27,404 INFO [main][GenericScope.java:295] - BeanFactory id=fb68bc2b-5232-39c6-ab75-176e28f7e2d3
+2022-10-02 10:33:27,790 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:33:27,790 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:33:27,790 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:33:27,790 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:33:27,804 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:33:27,804 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:33:27,804 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:33:27,804 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:33:30,611 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:33:30,611 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:33:30,623 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:33:30,623 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:33:30,754 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 10:33:30,754 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 10:33:30,826 DEBUG [main][MybatisPlusAutoConfiguration.java:314] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2022-10-02 10:33:30,826 DEBUG [main][MybatisPlusAutoConfiguration.java:314] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2022-10-02 10:33:31,037 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 10:33:31,037 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 10:33:33,288 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 10:33:33,288 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 10:33:33,305 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 10:33:33,305 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 10:33:33,306 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 10:33:33,306 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 10:33:33,308 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 10:33:33,308 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 10:33:33,312 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 10:33:33,312 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 10:33:33,313 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 10:33:33,313 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 10:33:33,314 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 10:33:33,314 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 10:33:33,315 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 10:33:33,315 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 10:33:33,316 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 10:33:33,316 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 10:33:33,319 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 10:33:33,319 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 10:33:33,323 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 10:33:33,323 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 10:33:33,324 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 10:33:33,324 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 10:33:33,325 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 10:33:33,325 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 10:33:33,326 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 10:33:33,326 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 10:33:33,326 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 10:33:33,326 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 10:33:33,327 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 10:33:33,327 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 10:33:33,686 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 10:33:33,686 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 10:33:36,492 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:33:36,492 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:33:36,856 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 10:33:36,856 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 10:33:36,857 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 10:33:36,857 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 10:33:36,858 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 10:33:36,858 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 10:33:36,866 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:33:36,866 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:33:36,867 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:33:36,867 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:33:36,874 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 10:33:36,874 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 10:33:36,889 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 10:33:36,889 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 10:33:36,893 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=64251&clusters=DEFAULT, body: {}
+2022-10-02 10:33:36,893 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=64251&clusters=DEFAULT, body: {}
+2022-10-02 10:33:37,046 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 17.706 seconds (JVM running for 21.651)
+2022-10-02 10:33:37,046 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 17.706 seconds (JVM running for 21.651)
+2022-10-02 10:33:37,054 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service.yaml+xuecheng-plus-project+dev
+2022-10-02 10:33:37,054 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service.yaml+xuecheng-plus-project+dev
+2022-10-02 10:33:37,055 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:33:37,055 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:33:37,058 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service+xuecheng-plus-project+dev
+2022-10-02 10:33:37,058 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service+xuecheng-plus-project+dev
+2022-10-02 10:33:37,059 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:33:37,059 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:33:37,065 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 10:33:37,065 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 10:33:37,066 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:33:37,066 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:33:37,067 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:33:37,067 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:33:37,068 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e6e5ea4]
+2022-10-02 10:33:37,068 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e6e5ea4]
+2022-10-02 10:33:37,070 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 10:33:37,070 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 10:33:37,071 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 10:33:37,071 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 10:33:37,079 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:33:37,080 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e6e5ea4]
+2022-10-02 10:33:37,079 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:33:37,080 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e6e5ea4]
+2022-10-02 10:33:37,087 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:33:37,087 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e6e5ea4]
+2022-10-02 10:33:37,087 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:33:37,087 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e6e5ea4]
+2022-10-02 10:33:37,156 ERROR [main][TestContextManager.java:248] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c97f5e9] to prepare test instance [com.xuecheng.orders.Test1@32e7b78d]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.xuecheng.orders.Test1': Unsatisfied dependency expressed through field 'mqMessageHistoryMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xuecheng.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:392)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xuecheng.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 69 more
+2022-10-02 10:33:37,156 ERROR [main][TestContextManager.java:248] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c97f5e9] to prepare test instance [com.xuecheng.orders.Test1@32e7b78d]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.xuecheng.orders.Test1': Unsatisfied dependency expressed through field 'mqMessageHistoryMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xuecheng.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:392)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xuecheng.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 69 more
+2022-10-02 10:33:37,279 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 10:33:37,280 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 10:33:37,279 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 10:33:37,280 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 10:33:37,286 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 10:33:37,288 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 10:33:37,286 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 10:33:37,288 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 10:33:37,303 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:33:37,303 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:33:37,325 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 10:33:37,325 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 10:33:37,325 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 10:33:37,326 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 10:33:37,325 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 10:33:37,326 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 10:33:38,024 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=64251&clusters=DEFAULT, body: {}
+2022-10-02 10:33:38,024 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=64251&clusters=DEFAULT, body: {}
+2022-10-02 10:33:38,028 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 10:33:38,028 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 10:33:41,032 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 10:33:41,032 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 10:33:41,033 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 10:33:41,033 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 10:33:44,036 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 10:33:44,036 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 10:33:44,036 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 10:33:44,036 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 10:33:44,036 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 10:33:44,036 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 10:33:44,037 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 10:33:44,037 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 10:33:44,037 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 10:33:44,037 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 10:33:44,038 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 10:33:44,038 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 10:33:44,038 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 10:33:44,038 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 10:33:44,038 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 10:33:44,038 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 10:34:54,570 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 10:34:54,570 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 10:34:55,350 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 10:34:55,350 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 10:34:55,518 INFO [main][GenericScope.java:295] - BeanFactory id=05bb69dd-5b68-322b-8532-fb3957526aaa
+2022-10-02 10:34:55,518 INFO [main][GenericScope.java:295] - BeanFactory id=05bb69dd-5b68-322b-8532-fb3957526aaa
+2022-10-02 10:34:55,959 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:34:55,959 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:34:55,959 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:34:55,959 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:34:55,969 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:34:55,969 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:34:55,970 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:34:55,970 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:34:58,157 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:34:58,157 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:34:58,169 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:34:58,169 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:34:58,282 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 10:34:58,282 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 10:34:58,465 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6a916402'
+2022-10-02 10:34:58,465 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6a916402'
+2022-10-02 10:34:58,468 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 10:34:58,468 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 10:35:00,454 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 10:35:00,454 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 10:35:00,475 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 10:35:00,475 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 10:35:00,476 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 10:35:00,476 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 10:35:00,478 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 10:35:00,478 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 10:35:00,481 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 10:35:00,481 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 10:35:00,481 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 10:35:00,481 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 10:35:00,482 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 10:35:00,482 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 10:35:00,484 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 10:35:00,484 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 10:35:00,485 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 10:35:00,485 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 10:35:00,488 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 10:35:00,488 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 10:35:00,491 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 10:35:00,491 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 10:35:00,493 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 10:35:00,493 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 10:35:00,493 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 10:35:00,493 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 10:35:00,494 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 10:35:00,494 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 10:35:00,494 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 10:35:00,494 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 10:35:00,495 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 10:35:00,495 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 10:35:00,764 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 10:35:00,764 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 10:35:03,494 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:35:03,494 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:35:03,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.insert
+2022-10-02 10:35:03,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.insert
+2022-10-02 10:35:03,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.delete
+2022-10-02 10:35:03,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.delete
+2022-10-02 10:35:03,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteByMap
+2022-10-02 10:35:03,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteByMap
+2022-10-02 10:35:03,944 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteById
+2022-10-02 10:35:03,944 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteById
+2022-10-02 10:35:03,946 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-10-02 10:35:03,946 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-10-02 10:35:03,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.update
+2022-10-02 10:35:03,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.update
+2022-10-02 10:35:03,955 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.updateById
+2022-10-02 10:35:03,955 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.updateById
+2022-10-02 10:35:03,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectById
+2022-10-02 10:35:03,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectById
+2022-10-02 10:35:03,958 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-10-02 10:35:03,958 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-10-02 10:35:03,960 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectByMap
+2022-10-02 10:35:03,960 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectByMap
+2022-10-02 10:35:03,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectOne
+2022-10-02 10:35:03,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectOne
+2022-10-02 10:35:03,966 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectCount
+2022-10-02 10:35:03,966 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectCount
+2022-10-02 10:35:03,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectMaps
+2022-10-02 10:35:03,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectMaps
+2022-10-02 10:35:03,972 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-10-02 10:35:03,972 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-10-02 10:35:03,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectObjs
+2022-10-02 10:35:03,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectObjs
+2022-10-02 10:35:03,979 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectList
+2022-10-02 10:35:03,979 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectList
+2022-10-02 10:35:03,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectPage
+2022-10-02 10:35:03,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectPage
+2022-10-02 10:35:03,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.insert
+2022-10-02 10:35:03,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.insert
+2022-10-02 10:35:03,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.delete
+2022-10-02 10:35:03,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.delete
+2022-10-02 10:35:04,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteByMap
+2022-10-02 10:35:04,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteByMap
+2022-10-02 10:35:04,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteById
+2022-10-02 10:35:04,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteById
+2022-10-02 10:35:04,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteBatchIds
+2022-10-02 10:35:04,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteBatchIds
+2022-10-02 10:35:04,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.update
+2022-10-02 10:35:04,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.update
+2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.updateById
+2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.updateById
+2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectById
+2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectById
+2022-10-02 10:35:04,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectBatchIds
+2022-10-02 10:35:04,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectBatchIds
+2022-10-02 10:35:04,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectByMap
+2022-10-02 10:35:04,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectByMap
+2022-10-02 10:35:04,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectOne
+2022-10-02 10:35:04,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectOne
+2022-10-02 10:35:04,024 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectCount
+2022-10-02 10:35:04,024 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectCount
+2022-10-02 10:35:04,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectMaps
+2022-10-02 10:35:04,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectMaps
+2022-10-02 10:35:04,029 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectMapsPage
+2022-10-02 10:35:04,029 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectMapsPage
+2022-10-02 10:35:04,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectObjs
+2022-10-02 10:35:04,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectObjs
+2022-10-02 10:35:04,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectList
+2022-10-02 10:35:04,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectList
+2022-10-02 10:35:04,038 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectPage
+2022-10-02 10:35:04,038 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectPage
+2022-10-02 10:35:04,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.insert
+2022-10-02 10:35:04,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.insert
+2022-10-02 10:35:04,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.delete
+2022-10-02 10:35:04,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.delete
+2022-10-02 10:35:04,056 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteByMap
+2022-10-02 10:35:04,056 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteByMap
+2022-10-02 10:35:04,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteById
+2022-10-02 10:35:04,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteById
+2022-10-02 10:35:04,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteBatchIds
+2022-10-02 10:35:04,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteBatchIds
+2022-10-02 10:35:04,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.update
+2022-10-02 10:35:04,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.update
+2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.updateById
+2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.updateById
+2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectById
+2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectById
+2022-10-02 10:35:04,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectBatchIds
+2022-10-02 10:35:04,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectBatchIds
+2022-10-02 10:35:04,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectByMap
+2022-10-02 10:35:04,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectByMap
+2022-10-02 10:35:04,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectOne
+2022-10-02 10:35:04,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectOne
+2022-10-02 10:35:04,073 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectCount
+2022-10-02 10:35:04,073 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectCount
+2022-10-02 10:35:04,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMaps
+2022-10-02 10:35:04,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMaps
+2022-10-02 10:35:04,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMapsPage
+2022-10-02 10:35:04,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMapsPage
+2022-10-02 10:35:04,079 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectObjs
+2022-10-02 10:35:04,079 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectObjs
+2022-10-02 10:35:04,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectList
+2022-10-02 10:35:04,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectList
+2022-10-02 10:35:04,085 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectPage
+2022-10-02 10:35:04,085 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectPage
+2022-10-02 10:35:04,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.insert
+2022-10-02 10:35:04,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.insert
+2022-10-02 10:35:04,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.delete
+2022-10-02 10:35:04,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.delete
+2022-10-02 10:35:04,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteByMap
+2022-10-02 10:35:04,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteByMap
+2022-10-02 10:35:04,110 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteById
+2022-10-02 10:35:04,110 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteById
+2022-10-02 10:35:04,112 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteBatchIds
+2022-10-02 10:35:04,112 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteBatchIds
+2022-10-02 10:35:04,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.update
+2022-10-02 10:35:04,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.update
+2022-10-02 10:35:04,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.updateById
+2022-10-02 10:35:04,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.updateById
+2022-10-02 10:35:04,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectById
+2022-10-02 10:35:04,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectById
+2022-10-02 10:35:04,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectBatchIds
+2022-10-02 10:35:04,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectBatchIds
+2022-10-02 10:35:04,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectByMap
+2022-10-02 10:35:04,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectByMap
+2022-10-02 10:35:04,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectOne
+2022-10-02 10:35:04,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectOne
+2022-10-02 10:35:04,133 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectCount
+2022-10-02 10:35:04,133 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectCount
+2022-10-02 10:35:04,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMaps
+2022-10-02 10:35:04,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMaps
+2022-10-02 10:35:04,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMapsPage
+2022-10-02 10:35:04,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMapsPage
+2022-10-02 10:35:04,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectObjs
+2022-10-02 10:35:04,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectObjs
+2022-10-02 10:35:04,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectList
+2022-10-02 10:35:04,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectList
+2022-10-02 10:35:04,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectPage
+2022-10-02 10:35:04,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectPage
+2022-10-02 10:35:04,170 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.insert
+2022-10-02 10:35:04,170 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.insert
+2022-10-02 10:35:04,173 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.delete
+2022-10-02 10:35:04,173 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.delete
+2022-10-02 10:35:04,177 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteByMap
+2022-10-02 10:35:04,177 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteByMap
+2022-10-02 10:35:04,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteById
+2022-10-02 10:35:04,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteById
+2022-10-02 10:35:04,183 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteBatchIds
+2022-10-02 10:35:04,183 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteBatchIds
+2022-10-02 10:35:04,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.update
+2022-10-02 10:35:04,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.update
+2022-10-02 10:35:04,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.updateById
+2022-10-02 10:35:04,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.updateById
+2022-10-02 10:35:04,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectById
+2022-10-02 10:35:04,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectById
+2022-10-02 10:35:04,196 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectBatchIds
+2022-10-02 10:35:04,196 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectBatchIds
+2022-10-02 10:35:04,199 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectByMap
+2022-10-02 10:35:04,199 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectByMap
+2022-10-02 10:35:04,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectOne
+2022-10-02 10:35:04,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectOne
+2022-10-02 10:35:04,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectCount
+2022-10-02 10:35:04,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectCount
+2022-10-02 10:35:04,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMaps
+2022-10-02 10:35:04,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMaps
+2022-10-02 10:35:04,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMapsPage
+2022-10-02 10:35:04,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMapsPage
+2022-10-02 10:35:04,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectObjs
+2022-10-02 10:35:04,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectObjs
+2022-10-02 10:35:04,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectList
+2022-10-02 10:35:04,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectList
+2022-10-02 10:35:04,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectPage
+2022-10-02 10:35:04,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectPage
+2022-10-02 10:35:04,259 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 10:35:04,259 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 10:35:04,260 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 10:35:04,260 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 10:35:04,261 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 10:35:04,261 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 10:35:04,268 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:35:04,268 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:35:04,269 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:35:04,269 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:35:04,275 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 10:35:04,275 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 10:35:04,288 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 10:35:04,288 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 10:35:04,292 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=59035&clusters=DEFAULT, body: {}
+2022-10-02 10:35:04,292 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=59035&clusters=DEFAULT, body: {}
+2022-10-02 10:35:04,520 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 16.232 seconds (JVM running for 18.969)
+2022-10-02 10:35:04,520 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 16.232 seconds (JVM running for 18.969)
+2022-10-02 10:35:04,540 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service.yaml+xuecheng-plus-project+dev
+2022-10-02 10:35:04,540 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service.yaml+xuecheng-plus-project+dev
+2022-10-02 10:35:04,542 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:35:04,542 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:35:04,545 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service+xuecheng-plus-project+dev
+2022-10-02 10:35:04,545 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service+xuecheng-plus-project+dev
+2022-10-02 10:35:04,546 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:35:04,546 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:35:04,550 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 10:35:04,550 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] orders-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 10:35:04,551 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:35:04,551 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=orders-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:35:04,555 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 10:35:04,555 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 10:35:04,555 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 10:35:04,555 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 10:35:04,655 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:35:04,655 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:35:04,656 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4d972c75]
+2022-10-02 10:35:04,656 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4d972c75]
+2022-10-02 10:35:04,669 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:35:04,670 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4d972c75]
+2022-10-02 10:35:04,669 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:35:04,670 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4d972c75]
+2022-10-02 10:35:05,191 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 10:35:05,192 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 10:35:05,192 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 10:35:05,191 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 10:35:05,192 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 10:35:05,192 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 10:35:05,193 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 10:35:05,193 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 10:35:05,196 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:35:05,196 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:35:05,214 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 10:35:05,214 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 10:35:05,215 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 10:35:05,215 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 10:35:05,215 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 10:35:05,215 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 10:35:05,500 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=59035&clusters=DEFAULT, body: {}
+2022-10-02 10:35:05,500 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=59035&clusters=DEFAULT, body: {}
+2022-10-02 10:35:05,505 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 10:35:05,505 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 10:35:08,507 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 10:35:08,507 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 10:35:08,507 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 10:35:08,507 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 10:35:11,511 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 10:35:11,511 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 10:35:11,511 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 10:35:11,511 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 10:35:11,511 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 10:35:11,511 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 10:35:11,512 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 10:35:11,512 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 10:35:11,512 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 10:35:11,512 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 10:35:11,512 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 10:35:11,512 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 10:35:11,513 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 10:35:11,513 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 10:35:11,513 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 10:35:11,513 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
