@@ -208,6 +208,15 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- 根据你的需求选择版本 -->
+                <configuration>
+                    <source>1.8</source> <!-- 设置你想要的JDK版本 -->
+                    <target>1.8</target> <!-- 设置目标JDK版本 -->
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
