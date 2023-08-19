@@ -71,6 +71,9 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private MqMessageService mqMessageService;
 
+    @Autowired
+    private OrderServiceImpl currentProxy;
+
     @Value("${pay.qrcodeurl}")
     String qrcodeurl;
 
@@ -104,8 +107,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public XcPayRecord getPayRecordByPayno(String payNo) {
-        XcPayRecord xcPayRecord = payRecordMapper.selectOne(new LambdaQueryWrapper<XcPayRecord>().eq(XcPayRecord::getPayNo, payNo));
-        return xcPayRecord;
+        return payRecordMapper.selectOne(new LambdaQueryWrapper<XcPayRecord>().eq(XcPayRecord::getPayNo, payNo));
     }
 
     @Override
@@ -113,8 +115,14 @@ public class OrderServiceImpl implements OrderService {
         // 调用支付宝的接口查询支付结果
         PayStatusDto payStatusDto = queryPayResultFromAlipay(payNo);
         // 拿到支付结果更新支付记录表和订单表的支付状态
-        saveAliPayStatus(payStatusDto);
-        return null;
+        // 非事务方法调用事务方法
+        currentProxy.saveAliPayStatus(payStatusDto);
+
+        // 要返回最新的交付记录信息
+        XcPayRecord payRecordByPayno = getPayRecordByPayno(payNo);
+        PayRecordDto payRecordDto = new PayRecordDto();
+        BeanUtils.copyProperties(payRecordByPayno, payRecordDto);
+        return payRecordDto;
     }
 
     /**
@@ -161,14 +169,49 @@ public class OrderServiceImpl implements OrderService {
     }
 
     /**
-     * @param payStatusDto 支付结果信息
+     * @param payStatusDto 支付结果信息  从支付宝查询到的信息
      * @return void
      * @description 保存支付宝支付结果
      * @author Mr.M
      * @date 2022/10/4 16:52
      */
+    @Transactional
     public void saveAliPayStatus(PayStatusDto payStatusDto) {
+        // 支付记录号
+        String payNo = payStatusDto.getOut_trade_no();
+        XcPayRecord payRecordByPayno = getPayRecordByPayno(payNo);
+        if (payRecordByPayno == null) {
+            XueChengPlusException.cast("找不到相关的支付记录");
+        }
 
+        // 拿到相关联的订单ID
+        Long orderId = payRecordByPayno.getOrderId();
+        XcOrders xcOrders = ordersMapper.selectById(orderId);
+        if (xcOrders == null) XueChengPlusException.cast("找不到相关联的订单");
+
+        // 支付状态
+        String statusFromDb = payRecordByPayno.getStatus();
+        if ("601002".equals(statusFromDb)) {
+            // 如果已经成功
+            return;
+        }
+        // 如果支付成功
+        String tradeStatus = payStatusDto.getTrade_status();
+        if (tradeStatus.equals("TRADE_SUCCESS")) {
+            // 更新支付记录表的状态的支付成功
+            payRecordByPayno.setStatus("601002");
+            // 支付宝的订单号
+            payRecordByPayno.setOutPayNo(payStatusDto.getTrade_no());
+            // 第三方支付渠道编号
+            payRecordByPayno.setOutPayChannel("Alipay");
+            // 支付成功时间
+            payRecordByPayno.setPaySuccessTime(LocalDateTime.now());
+            payRecordMapper.updateById(payRecordByPayno);
+            // 更新支付记录表的状态
+            // 订单状态为交易成功
+            xcOrders.setStatus("600002");
+            ordersMapper.updateById(xcOrders);
+        }
     }
 
     /**

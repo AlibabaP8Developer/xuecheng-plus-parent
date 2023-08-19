@@ -95,8 +95,7 @@ public class OrderController {
     @ResponseBody
     public PayRecordDto payresult(String payNo) throws IOException {
         //查询支付结果
-        PayRecordDto payRecordDto = orderService.queryPayResult(payNo);
-        return payRecordDto;
+        return orderService.queryPayResult(payNo);
     }
 
 }
