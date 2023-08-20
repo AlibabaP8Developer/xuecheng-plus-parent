@@ -211,6 +211,11 @@ public class OrderServiceImpl implements OrderService {
             // 订单状态为交易成功
             xcOrders.setStatus("600002");
             ordersMapper.updateById(xcOrders);
+
+            // 将消息写到数据库
+            MqMessage mqMessage = mqMessageService.addMessage("payresult_notify", xcOrders.getOutBusinessId(), xcOrders.getOrderType(), null);
+            // 发送消息
+            notifyPayResult(mqMessage);
         }
     }
 
@@ -252,7 +257,6 @@ public class OrderServiceImpl implements OrderService {
         if (insert <= 0) XueChengPlusException.cast("插入支付记录失败");
 
         // 如果此订单支付结果为成功，不再添加支付记录，避免重复支付
-
         return xcPayRecord;
     }
 
