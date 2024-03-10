@@ -1,0 +1,1 @@
+2023-06-17 21:33:31,777 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:388] - [fixed-localhost_8848-dev] [check-update] get changed dataId error, code: 400

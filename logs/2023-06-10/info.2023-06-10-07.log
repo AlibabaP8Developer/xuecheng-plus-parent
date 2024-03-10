@@ -1,0 +1,506 @@
+2023-06-10 08:01:59,229 WARN [Thread-20][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-06-10 08:01:59,229 WARN [Thread-14][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-06-10 08:01:59,229 WARN [Thread-14][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-06-10 08:01:59,229 WARN [Thread-20][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-06-10 08:01:59,238 WARN [Thread-20][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-06-10 08:01:59,238 WARN [Thread-20][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-06-10 08:01:59,263 WARN [Thread-14][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-06-10 08:01:59,263 WARN [Thread-14][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-06-10 08:01:59,407 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-06-10 08:01:59,407 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-06-10 08:01:59,417 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-06-10 08:01:59,417 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-06-10 08:01:59,434 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-06-10 08:01:59,434 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-06-10 08:02:00,048 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@51ff02f0 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4a864d4d
+2023-06-10 08:02:00,048 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@51ff02f0 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4a864d4d
+2023-06-10 08:02:05,500 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-06-10 08:02:05,500 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-06-10 08:02:05,512 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-10 08:02:05,512 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-10 08:02:21,951 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-06-10 08:02:21,951 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-06-10 08:02:21,957 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-06-10 08:02:21,957 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-06-10 08:02:21,989 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-06-10 08:02:21,989 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-06-10 08:02:21,991 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-06-10 08:02:21,991 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-06-10 08:02:21,992 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-06-10 08:02:21,992 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-06-10 08:02:21,992 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-06-10 08:02:21,992 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-06-10 08:02:21,997 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-06-10 08:02:21,997 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-06-10 08:02:22,019 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-06-10 08:02:22,019 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-06-10 08:02:22,223 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-06-10 08:02:22,223 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-06-10 08:02:22,229 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-06-10 08:02:22,229 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-06-10 08:02:22,230 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-06-10 08:02:22,230 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-06-10 08:02:22,230 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-06-10 08:02:22,230 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-06-10 08:02:22,230 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-06-10 08:02:22,230 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-06-10 08:02:22,231 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-06-10 08:02:22,231 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-06-10 08:02:22,568 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-06-10 08:02:22,568 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-06-10 08:02:23,712 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-10 08:02:23,712 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-10 08:02:23,836 INFO [main][GenericScope.java:295] - BeanFactory id=0d527478-7408-344f-baa9-cf339443a7d1
+2023-06-10 08:02:23,836 INFO [main][GenericScope.java:295] - BeanFactory id=0d527478-7408-344f-baa9-cf339443a7d1
+2023-06-10 08:02:24,178 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-06-10 08:02:24,178 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-06-10 08:02:24,187 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:24,187 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:24,188 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-06-10 08:02:24,188 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-06-10 08:02:24,188 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-06-10 08:02:24,188 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-06-10 08:02:24,343 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-06-10 08:02:24,343 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-06-10 08:02:24,344 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1730 ms
+2023-06-10 08:02:24,344 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1730 ms
+2023-06-10 08:02:24,598 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-06-10 08:02:24,598 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-06-10 08:02:24,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-06-10 08:02:24,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-06-10 08:02:24,740 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-06-10 08:02:24,740 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-06-10 08:02:24,742 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-06-10 08:02:24,742 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-06-10 08:02:24,763 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-06-10 08:02:24,763 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-06-10 08:02:24,764 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-06-10 08:02:24,764 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-06-10 08:02:24,771 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-06-10 08:02:24,771 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-06-10 08:02:24,776 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-06-10 08:02:24,776 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-06-10 08:02:24,779 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-06-10 08:02:24,779 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-06-10 08:02:24,783 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-06-10 08:02:24,783 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-06-10 08:02:24,786 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-06-10 08:02:24,786 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-06-10 08:02:24,790 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-06-10 08:02:24,790 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-06-10 08:02:24,794 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-06-10 08:02:24,794 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-06-10 08:02:24,804 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-06-10 08:02:24,804 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-06-10 08:02:24,809 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-06-10 08:02:24,809 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-06-10 08:02:24,816 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-06-10 08:02:24,816 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-06-10 08:02:24,819 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-06-10 08:02:24,819 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-06-10 08:02:24,822 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-06-10 08:02:24,822 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-06-10 08:02:24,848 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-06-10 08:02:24,848 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-06-10 08:02:24,852 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.insert
+2023-06-10 08:02:24,852 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.insert
+2023-06-10 08:02:24,856 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.delete
+2023-06-10 08:02:24,856 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.delete
+2023-06-10 08:02:24,860 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteByMap
+2023-06-10 08:02:24,860 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteByMap
+2023-06-10 08:02:24,861 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteById
+2023-06-10 08:02:24,861 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteById
+2023-06-10 08:02:24,863 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-06-10 08:02:24,863 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-06-10 08:02:24,864 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.update
+2023-06-10 08:02:24,864 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.update
+2023-06-10 08:02:24,867 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.updateById
+2023-06-10 08:02:24,867 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.updateById
+2023-06-10 08:02:24,867 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectById
+2023-06-10 08:02:24,867 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectById
+2023-06-10 08:02:24,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-06-10 08:02:24,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-06-10 08:02:24,870 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectByMap
+2023-06-10 08:02:24,870 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectByMap
+2023-06-10 08:02:24,872 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectOne
+2023-06-10 08:02:24,872 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectOne
+2023-06-10 08:02:24,876 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectCount
+2023-06-10 08:02:24,876 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectCount
+2023-06-10 08:02:24,877 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectMaps
+2023-06-10 08:02:24,877 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectMaps
+2023-06-10 08:02:24,879 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-06-10 08:02:24,879 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-06-10 08:02:24,880 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectObjs
+2023-06-10 08:02:24,880 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectObjs
+2023-06-10 08:02:24,881 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectList
+2023-06-10 08:02:24,881 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectList
+2023-06-10 08:02:24,884 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectPage
+2023-06-10 08:02:24,884 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectPage
+2023-06-10 08:02:24,899 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-06-10 08:02:24,899 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-06-10 08:02:24,900 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-06-10 08:02:24,900 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-06-10 08:02:24,901 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-06-10 08:02:24,901 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-06-10 08:02:24,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-06-10 08:02:24,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-06-10 08:02:24,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-06-10 08:02:24,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-06-10 08:02:24,905 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-06-10 08:02:24,905 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-06-10 08:02:24,906 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-06-10 08:02:24,906 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-06-10 08:02:24,906 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-06-10 08:02:24,906 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-06-10 08:02:24,907 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-06-10 08:02:24,907 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-06-10 08:02:24,909 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-06-10 08:02:24,909 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-06-10 08:02:24,911 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-06-10 08:02:24,911 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-06-10 08:02:24,913 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-06-10 08:02:24,913 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-06-10 08:02:24,915 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-06-10 08:02:24,915 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-06-10 08:02:24,916 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-06-10 08:02:24,916 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-06-10 08:02:24,917 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-06-10 08:02:24,917 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-06-10 08:02:24,918 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-06-10 08:02:24,918 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-06-10 08:02:24,918 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-06-10 08:02:24,918 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-06-10 08:02:24,938 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-06-10 08:02:24,938 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-06-10 08:02:24,941 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-06-10 08:02:24,941 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-06-10 08:02:24,946 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-06-10 08:02:24,946 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-06-10 08:02:24,948 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-06-10 08:02:24,948 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-06-10 08:02:24,950 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-06-10 08:02:24,950 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-06-10 08:02:24,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-06-10 08:02:24,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-06-10 08:02:24,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-06-10 08:02:24,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-06-10 08:02:24,953 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-06-10 08:02:24,953 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-06-10 08:02:24,954 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-06-10 08:02:24,954 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-06-10 08:02:24,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-06-10 08:02:24,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-06-10 08:02:24,959 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-06-10 08:02:24,959 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-06-10 08:02:24,962 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-06-10 08:02:24,962 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-06-10 08:02:24,964 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-06-10 08:02:24,964 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-06-10 08:02:24,967 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-06-10 08:02:24,967 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-06-10 08:02:24,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-06-10 08:02:24,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-06-10 08:02:24,970 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-06-10 08:02:24,970 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-06-10 08:02:24,971 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-06-10 08:02:24,971 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-06-10 08:02:24,989 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectTreeNodes
+2023-06-10 08:02:24,989 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectTreeNodes
+2023-06-10 08:02:24,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-06-10 08:02:24,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-06-10 08:02:24,994 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-06-10 08:02:24,994 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-06-10 08:02:24,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-06-10 08:02:24,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-06-10 08:02:24,997 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-06-10 08:02:24,997 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-06-10 08:02:25,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-06-10 08:02:25,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-06-10 08:02:25,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-06-10 08:02:25,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-06-10 08:02:25,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-06-10 08:02:25,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-06-10 08:02:25,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-06-10 08:02:25,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-06-10 08:02:25,010 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-06-10 08:02:25,010 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-06-10 08:02:25,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-06-10 08:02:25,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-06-10 08:02:25,012 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-06-10 08:02:25,012 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-06-10 08:02:25,013 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-06-10 08:02:25,013 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-06-10 08:02:25,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-06-10 08:02:25,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-06-10 08:02:25,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-06-10 08:02:25,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-06-10 08:02:25,019 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-06-10 08:02:25,019 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-06-10 08:02:25,023 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-06-10 08:02:25,023 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-06-10 08:02:25,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-06-10 08:02:25,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-06-10 08:02:25,037 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-06-10 08:02:25,037 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-06-10 08:02:25,039 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-06-10 08:02:25,039 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-06-10 08:02:25,040 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-06-10 08:02:25,040 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-06-10 08:02:25,041 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-06-10 08:02:25,041 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-06-10 08:02:25,043 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-06-10 08:02:25,043 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-06-10 08:02:25,045 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-06-10 08:02:25,045 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-06-10 08:02:25,047 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-06-10 08:02:25,047 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-06-10 08:02:25,047 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-06-10 08:02:25,047 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-06-10 08:02:25,048 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-06-10 08:02:25,048 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-06-10 08:02:25,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-06-10 08:02:25,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-06-10 08:02:25,051 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-06-10 08:02:25,051 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-06-10 08:02:25,052 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-06-10 08:02:25,052 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-06-10 08:02:25,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-06-10 08:02:25,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-06-10 08:02:25,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-06-10 08:02:25,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-06-10 08:02:25,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-06-10 08:02:25,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-06-10 08:02:25,058 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-06-10 08:02:25,058 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-06-10 08:02:25,060 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-06-10 08:02:25,060 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-06-10 08:02:25,674 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-10 08:02:25,674 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-10 08:02:25,789 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-06-10 08:02:25,789 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-06-10 08:02:25,790 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-06-10 08:02:25,790 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-06-10 08:02:25,793 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-06-10 08:02:25,793 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-06-10 08:02:25,793 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-06-10 08:02:25,793 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-06-10 08:02:25,817 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-06-10 08:02:25,817 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-06-10 08:02:25,820 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-06-10 08:02:25,820 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-06-10 08:02:25,821 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-06-10 08:02:25,821 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-06-10 08:02:25,821 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-06-10 08:02:25,821 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-06-10 08:02:25,823 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-06-10 08:02:25,823 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-06-10 08:02:25,824 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-06-10 08:02:25,824 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-06-10 08:02:25,825 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-06-10 08:02:25,825 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-06-10 08:02:25,825 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-06-10 08:02:25,825 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-06-10 08:02:25,826 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-06-10 08:02:25,826 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-06-10 08:02:25,827 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-06-10 08:02:25,827 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-06-10 08:02:25,832 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-06-10 08:02:25,832 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-06-10 08:02:25,832 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-06-10 08:02:25,832 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-06-10 08:02:25,833 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-06-10 08:02:25,833 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-06-10 08:02:25,833 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-06-10 08:02:25,833 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-06-10 08:02:25,833 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-06-10 08:02:25,833 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-06-10 08:02:25,833 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-06-10 08:02:25,833 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-06-10 08:02:25,955 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-10 08:02:25,955 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-10 08:02:26,140 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-06-10 08:02:26,140 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-06-10 08:02:26,523 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:26,523 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:26,563 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2023-06-10 08:02:26,563 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2023-06-10 08:02:26,590 ERROR [main][NacosServiceRegistry.java:80] - nacos registry, content-service register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='dev', watchDelay=30000, logName='', service='content-service', weight=1.0, clusterName='DEFAULT', group='xuecheng-plus-project', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.0.104', networkInterface='', port=63040, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
+ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:246)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:212)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.ContentApiApplication.main(ContentApiApplication.java:11)
+2023-06-10 08:02:26,593 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-06-10 08:02:26,590 ERROR [main][NacosServiceRegistry.java:80] - nacos registry, content-service register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='dev', watchDelay=30000, logName='', service='content-service', weight=1.0, clusterName='DEFAULT', group='xuecheng-plus-project', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.0.104', networkInterface='', port=63040, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
+ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:246)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:212)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.ContentApiApplication.main(ContentApiApplication.java:11)
+2023-06-10 08:02:26,593 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-06-10 08:02:35,703 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-10 08:02:35,703 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-10 08:02:35,799 INFO [main][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:35,799 INFO [main][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:35,802 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-06-10 08:02:35,802 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-06-10 08:02:35,821 INFO [main][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:35,821 INFO [main][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:35,831 INFO [main][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:35,831 INFO [main][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-63040"]
+2023-06-10 08:02:35,846 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-10 08:02:35,846 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-10 08:02:35,867 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.ContentApiApplication.main(ContentApiApplication.java:11)
+Caused by: java.lang.reflect.UndeclaredThrowableException
+	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:82)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	... 14 more
+Caused by: ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:246)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:212)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	... 27 more
+2023-06-10 08:02:35,867 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.ContentApiApplication.main(ContentApiApplication.java:11)
+Caused by: java.lang.reflect.UndeclaredThrowableException
+	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:82)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	... 14 more
+Caused by: ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:246)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:212)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	... 27 more
+2023-06-10 08:02:51,551 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-06-10 08:02:51,551 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-06-10 08:02:51,551 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-06-10 08:02:51,551 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-06-10 08:02:51,563 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-06-10 08:02:51,563 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-06-10 08:02:51,570 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-06-10 08:02:51,570 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end

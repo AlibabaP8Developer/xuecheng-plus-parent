@@ -1,0 +1,21 @@
+2023-06-17 22:13:01,102 ERROR [http-nio-63050-exec-2][MediaFileServiceImpl.java:234] - 错误消息：1::The specified key does not exist., 2::null, 3::The specified key does not exist.
+2023-06-17 22:24:47,077 ERROR [http-nio-63050-exec-5][MediaFileServiceImpl.java:234] - 错误消息：1::The specified key does not exist., 2::null, 3::The specified key does not exist.
+2023-06-17 22:25:52,549 ERROR [http-nio-63050-exec-2][MediaFileServiceImpl.java:234] - 错误消息：1::The specified key does not exist., 2::null, 3::The specified key does not exist.
+2023-06-17 22:27:43,456 ERROR [http-nio-63050-exec-2][MediaFileServiceImpl.java:234] - 错误消息：1::The specified key does not exist., 2::null, 3::The specified key does not exist.
+2023-06-17 22:41:34,878 ERROR [http-nio-63050-exec-3][MediaFileServiceImpl.java:234] - 错误消息：1::The specified key does not exist., 2::null, 3::The specified key does not exist.
+2023-06-17 22:45:53,758 ERROR [http-nio-63050-exec-7][MediaFileServiceImpl.java:234] - 错误消息：1::The specified key does not exist., 2::null, 3::The specified key does not exist.
+2023-06-17 22:47:52,627 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63050 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63050 or configure this application to listen on another port.
+
+2023-06-17 22:58:51,930 ERROR [http-nio-63050-exec-5][MediaFileServiceImpl.java:234] - 错误消息：1::The specified key does not exist., 2::null, 3::The specified key does not exist.

@@ -1,0 +1,11 @@
+2023-07-16 17:50:12,555 ERROR [http-nio-63040-exec-3][GlobalExceptionHandler.java:32] - 【捕获系统异常】课程没有审核记录，无法发布
+2023-07-16 17:50:17,204 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:32] - 【捕获系统异常】请填写课程计划
+2023-07-16 17:50:22,707 ERROR [http-nio-63040-exec-7][GlobalExceptionHandler.java:32] - 【捕获系统异常】请填写课程计划
+2023-07-16 17:50:44,811 ERROR [http-nio-63040-exec-3][GlobalExceptionHandler.java:32] - 【捕获系统异常】请填写课程计划
+2023-07-16 17:51:48,709 ERROR [http-nio-63040-exec-6][GlobalExceptionHandler.java:32] - 【捕获系统异常】课程没有审核记录，无法发布
+2023-07-16 17:51:53,128 ERROR [http-nio-63040-exec-8][GlobalExceptionHandler.java:32] - 【捕获系统异常】请填写课程计划
+2023-07-16 17:51:57,174 ERROR [http-nio-63040-exec-10][GlobalExceptionHandler.java:32] - 【捕获系统异常】请填写课程计划
+2023-07-16 17:53:29,377 ERROR [http-nio-63040-exec-5][GlobalExceptionHandler.java:32] - 【捕获系统异常】课程没有审核通过不允许发布
+2023-07-16 17:54:31,395 ERROR [http-nio-63040-exec-7][GlobalExceptionHandler.java:32] - 【捕获系统异常】课程没有审核通过不允许发布
+2023-07-16 17:54:35,433 ERROR [http-nio-63040-exec-9][GlobalExceptionHandler.java:32] - 【捕获系统异常】课程没有审核通过不允许发布
+2023-07-16 17:54:41,330 ERROR [http-nio-63040-exec-3][GlobalExceptionHandler.java:32] - 【捕获系统异常】课程没有审核通过不允许发布

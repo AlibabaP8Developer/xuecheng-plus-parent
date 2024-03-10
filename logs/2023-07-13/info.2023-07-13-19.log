@@ -1,0 +1,1044 @@
+2023-07-13 20:10:48,059 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@checkcode\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1689250248016,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279517132816041} from /127.0.0.1
+2023-07-13 20:10:48,059 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@checkcode\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1689250248016,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279517132816041} from /127.0.0.1
+2023-07-13 20:10:48,104 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@checkcode -> [{"instanceId":"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.0.101","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-13 20:10:48,104 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@checkcode -> [{"instanceId":"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.0.101","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-13 20:10:48,105 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@33005166 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1dadd172
+2023-07-13 20:10:48,105 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@33005166 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1dadd172
+2023-07-13 20:10:48,107 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@checkcode -> []
+2023-07-13 20:10:48,107 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@checkcode -> []
+2023-07-13 20:10:49,052 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:10:49,052 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:10:49,122 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@checkcode\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode\",\"ip\":\"192.168.0.101\",\"port\":63075,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@checkcode\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250249096,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279518217934500} from /127.0.0.1
+2023-07-13 20:10:49,122 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@checkcode\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode\",\"ip\":\"192.168.0.101\",\"port\":63075,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@checkcode\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250249096,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279518217934500} from /127.0.0.1
+2023-07-13 20:10:49,127 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@checkcode -> [{"instanceId":"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.0.101","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-13 20:10:49,127 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@checkcode -> [{"instanceId":"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.0.101","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-13 20:10:49,129 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@5ef83b3f will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1dadd172
+2023-07-13 20:10:49,129 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@5ef83b3f will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1dadd172
+2023-07-13 20:10:49,130 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@checkcode -> [{"instanceId":"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.0.101","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-13 20:10:49,130 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@checkcode -> [{"instanceId":"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.0.101","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-13 20:10:50,650 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63070, ip='192.168.0.101', weight=1.0, serviceName='xuecheng-plus-project@@auth-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-07-13 20:10:50,650 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63070, ip='192.168.0.101', weight=1.0, serviceName='xuecheng-plus-project@@auth-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-07-13 20:10:50,660 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40auth-service&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101, body: {}
+2023-07-13 20:10:50,660 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40auth-service&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101, body: {}
+2023-07-13 20:10:50,694 INFO [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@auth-service with instance: Instance{instanceId='null', ip='192.168.0.101', port=63070, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='xuecheng-plus-project@@auth-service', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-13 20:10:50,694 INFO [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@auth-service with instance: Instance{instanceId='null', ip='192.168.0.101', port=63070, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='xuecheng-plus-project@@auth-service', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-13 20:10:50,696 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63070&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.0.101&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40auth-service, body: {}
+2023-07-13 20:10:50,696 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63070&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.0.101&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40auth-service, body: {}
+2023-07-13 20:10:50,904 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@auth-service\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63070#DEFAULT#xuecheng-plus-project@@auth-service\",\"ip\":\"192.168.0.101\",\"port\":63070,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@auth-service\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250250891,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279520008816083} from /127.0.0.1
+2023-07-13 20:10:50,904 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@auth-service\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63070#DEFAULT#xuecheng-plus-project@@auth-service\",\"ip\":\"192.168.0.101\",\"port\":63070,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@auth-service\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250250891,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279520008816083} from /127.0.0.1
+2023-07-13 20:11:11,081 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m3s180ms).
+2023-07-13 20:11:11,081 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m3s180ms).
+2023-07-13 20:11:11,082 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-07-13 20:11:11,082 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-07-13 20:11:11,082 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-07-13 20:11:11,082 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-07-13 20:11:11,099 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=127.0.0.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=59218&clusters=, body: {}
+2023-07-13 20:11:11,099 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=127.0.0.1&serviceName=xuecheng-plus-project%40%40auth-service&udpPort=59218&clusters=DEFAULT, body: {}
+2023-07-13 20:11:11,099 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=127.0.0.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=59218&clusters=, body: {}
+2023-07-13 20:11:11,099 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=127.0.0.1&serviceName=xuecheng-plus-project%40%40auth-service&udpPort=59218&clusters=DEFAULT, body: {}
+2023-07-13 20:11:11,706 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@auth-service\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63070#DEFAULT#xuecheng-plus-project@@auth-service\",\"ip\":\"192.168.0.101\",\"port\":63070,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@auth-service\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250271688,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279523122662083} from /127.0.0.1
+2023-07-13 20:11:11,706 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@auth-service\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63070#DEFAULT#xuecheng-plus-project@@auth-service\",\"ip\":\"192.168.0.101\",\"port\":63070,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@auth-service\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250271688,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279523122662083} from /127.0.0.1
+2023-07-13 20:11:11,721 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@checkcode\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode\",\"ip\":\"192.168.0.101\",\"port\":63075,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@checkcode\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250271690,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279523124026166} from /127.0.0.1
+2023-07-13 20:11:11,721 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@checkcode\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63075#DEFAULT#xuecheng-plus-project@@checkcode\",\"ip\":\"192.168.0.101\",\"port\":63075,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@checkcode\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250271690,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279523124026166} from /127.0.0.1
+2023-07-13 20:11:11,748 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:11:11,748 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:11:13,415 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63070, ip='192.168.0.101', weight=1.0, serviceName='xuecheng-plus-project@@auth-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-07-13 20:11:13,415 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63070, ip='192.168.0.101', weight=1.0, serviceName='xuecheng-plus-project@@auth-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-07-13 20:11:13,424 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40auth-service&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101, body: {}
+2023-07-13 20:11:13,424 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40auth-service&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101, body: {}
+2023-07-13 20:11:13,711 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@auth-service\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63070#DEFAULT#xuecheng-plus-project@@auth-service\",\"ip\":\"192.168.0.101\",\"port\":63070,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@auth-service\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250273681,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279525110228541} from /127.0.0.1
+2023-07-13 20:11:13,711 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@auth-service\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.0.101#63070#DEFAULT#xuecheng-plus-project@@auth-service\",\"ip\":\"192.168.0.101\",\"port\":63070,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@auth-service\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1689250273681,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":279525110228541} from /127.0.0.1
+2023-07-13 20:11:16,761 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:11:16,761 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:11:17,635 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2023-07-13 20:11:17,635 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2023-07-13 20:11:17,635 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for checkcode obtained from Discovery client: [192.168.0.101:63075]
+2023-07-13 20:11:17,635 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for checkcode obtained from Discovery client: [192.168.0.101:63075]
+2023-07-13 20:11:17,636 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for checkcode obtained from Discovery client: [192.168.0.101:63075]
+2023-07-13 20:11:17,636 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for checkcode obtained from Discovery client: [192.168.0.101:63075]
+2023-07-13 20:11:17,636 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [checkcode]: clearing server list (SET op)
+2023-07-13 20:11:17,636 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [checkcode]: clearing server list (SET op)
+2023-07-13 20:11:17,636 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [checkcode]:  addServer [192.168.0.101:63075]
+2023-07-13 20:11:17,636 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [checkcode]:  addServer [192.168.0.101:63075]
+2023-07-13 20:11:17,636 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.0.101:63075]}
+2023-07-13 20:11:17,636 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.0.101:63075]}
+2023-07-13 20:11:17,637 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [checkcode_unknown]: clearing server list (SET op)
+2023-07-13 20:11:17,637 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [checkcode_unknown]: clearing server list (SET op)
+2023-07-13 20:11:17,637 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [checkcode_unknown]:  addServer [192.168.0.101:63075]
+2023-07-13 20:11:17,637 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [checkcode_unknown]:  addServer [192.168.0.101:63075]
+2023-07-13 20:11:18,475 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63070, ip='192.168.0.101', weight=1.0, serviceName='xuecheng-plus-project@@auth-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-07-13 20:11:18,475 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63070, ip='192.168.0.101', weight=1.0, serviceName='xuecheng-plus-project@@auth-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-07-13 20:11:18,479 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40auth-service&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101, body: {}
+2023-07-13 20:11:18,479 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40auth-service&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101, body: {}
+2023-07-13 20:11:20,553 INFO [Thread-61][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2023-07-13 20:11:20,553 INFO [Thread-61][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2023-07-13 20:11:20,553 WARN [Thread-30][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-13 20:11:20,557 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-13 20:11:20,553 WARN [Thread-30][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-13 20:11:20,557 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-13 20:11:20,590 WARN [Thread-30][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-13 20:11:20,590 WARN [Thread-30][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-13 20:11:20,715 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-13 20:11:20,715 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-13 20:11:20,878 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:20,878 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:20,881 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:20,881 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:21,240 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=127.0.0.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=59218&clusters=, body: {}
+2023-07-13 20:11:21,240 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=127.0.0.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=59218&clusters=, body: {}
+2023-07-13 20:11:21,241 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=127.0.0.1&serviceName=xuecheng-plus-project%40%40auth-service&udpPort=59218&clusters=DEFAULT, body: {}
+2023-07-13 20:11:21,241 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=127.0.0.1&serviceName=xuecheng-plus-project%40%40auth-service&udpPort=59218&clusters=DEFAULT, body: {}
+2023-07-13 20:11:21,801 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:11:21,801 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:11:22,071 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-13 20:11:22,071 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-13 20:11:22,249 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-13 20:11:22,249 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-13 20:11:22,267 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@auth-service:192.168.0.101:63070 from beat map.
+2023-07-13 20:11:22,267 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@auth-service:192.168.0.101:63070 from beat map.
+2023-07-13 20:11:22,358 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@auth-service with instance: Instance{instanceId='null', ip='192.168.0.101', port=63070, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-13 20:11:22,358 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@auth-service with instance: Instance{instanceId='null', ip='192.168.0.101', port=63070, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-13 20:11:22,437 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101&ephemeral=true&serviceName=xuecheng-plus-project%40%40auth-service, body: {}
+2023-07-13 20:11:22,437 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101&ephemeral=true&serviceName=xuecheng-plus-project%40%40auth-service, body: {}
+2023-07-13 20:11:22,654 ERROR [SpringContextShutdownHook][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:698)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.common.http.client.response.JdkHttpClientResponse.getStatusCode(JdkHttpClientResponse.java:79)
+	at com.alibaba.nacos.common.http.client.handler.AbstractResponseHandler.handle(AbstractResponseHandler.java:43)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:483)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2023-07-13 20:11:22,654 ERROR [SpringContextShutdownHook][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:698)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.common.http.client.response.JdkHttpClientResponse.getStatusCode(JdkHttpClientResponse.java:79)
+	at com.alibaba.nacos.common.http.client.handler.AbstractResponseHandler.handle(AbstractResponseHandler.java:43)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:483)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2023-07-13 20:11:22,865 DEBUG [SpringContextShutdownHook][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:698)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.common.http.client.response.JdkHttpClientResponse.getStatusCode(JdkHttpClientResponse.java:79)
+	at com.alibaba.nacos.common.http.client.handler.AbstractResponseHandler.handle(AbstractResponseHandler.java:43)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:483)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 27 more
+2023-07-13 20:11:22,865 DEBUG [SpringContextShutdownHook][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:698)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.common.http.client.response.JdkHttpClientResponse.getStatusCode(JdkHttpClientResponse.java:79)
+	at com.alibaba.nacos.common.http.client.handler.AbstractResponseHandler.handle(AbstractResponseHandler.java:43)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:483)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 27 more
+2023-07-13 20:11:23,037 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101&ephemeral=true&serviceName=xuecheng-plus-project%40%40auth-service, body: {}
+2023-07-13 20:11:23,037 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101&ephemeral=true&serviceName=xuecheng-plus-project%40%40auth-service, body: {}
+2023-07-13 20:11:23,260 ERROR [SpringContextShutdownHook][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:698)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.common.http.client.response.JdkHttpClientResponse.getStatusCode(JdkHttpClientResponse.java:79)
+	at com.alibaba.nacos.common.http.client.handler.AbstractResponseHandler.handle(AbstractResponseHandler.java:43)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:483)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2023-07-13 20:11:23,260 ERROR [SpringContextShutdownHook][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:698)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.common.http.client.response.JdkHttpClientResponse.getStatusCode(JdkHttpClientResponse.java:79)
+	at com.alibaba.nacos.common.http.client.handler.AbstractResponseHandler.handle(AbstractResponseHandler.java:43)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:483)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2023-07-13 20:11:23,371 DEBUG [SpringContextShutdownHook][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:698)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.common.http.client.response.JdkHttpClientResponse.getStatusCode(JdkHttpClientResponse.java:79)
+	at com.alibaba.nacos.common.http.client.handler.AbstractResponseHandler.handle(AbstractResponseHandler.java:43)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:483)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 27 more
+2023-07-13 20:11:23,371 DEBUG [SpringContextShutdownHook][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:698)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.common.http.client.response.JdkHttpClientResponse.getStatusCode(JdkHttpClientResponse.java:79)
+	at com.alibaba.nacos.common.http.client.handler.AbstractResponseHandler.handle(AbstractResponseHandler.java:43)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:483)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 27 more
+2023-07-13 20:11:23,487 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101&ephemeral=true&serviceName=xuecheng-plus-project%40%40auth-service, body: {}
+2023-07-13 20:11:23,487 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63070&clusterName=DEFAULT&ip=192.168.0.101&ephemeral=true&serviceName=xuecheng-plus-project%40%40auth-service, body: {}
+2023-07-13 20:11:23,506 ERROR [SpringContextShutdownHook][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2023-07-13 20:11:23,506 ERROR [SpringContextShutdownHook][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2023-07-13 20:11:23,517 DEBUG [SpringContextShutdownHook][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 27 more
+2023-07-13 20:11:23,517 DEBUG [SpringContextShutdownHook][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 27 more
+2023-07-13 20:11:23,533 ERROR [SpringContextShutdownHook][NamingProxy.java:552] - request: /nacos/v1/ns/instance failed, servers: [localhost:8848], code: 500, msg: Connection refused (Connection refused)
+2023-07-13 20:11:23,533 ERROR [SpringContextShutdownHook][NamingProxy.java:552] - request: /nacos/v1/ns/instance failed, servers: [localhost:8848], code: 500, msg: Connection refused (Connection refused)
+2023-07-13 20:11:23,568 ERROR [SpringContextShutdownHook][NacosServiceRegistry.java:110] - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='dev', watchDelay=30000, logName='', service='auth-service', weight=1.0, clusterName='DEFAULT', group='xuecheng-plus-project', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.0.101', networkInterface='', port=63070, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
+ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2023-07-13 20:11:23,568 ERROR [SpringContextShutdownHook][NacosServiceRegistry.java:110] - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='dev', watchDelay=30000, logName='', service='auth-service', weight=1.0, clusterName='DEFAULT', group='xuecheng-plus-project', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.0.101', networkInterface='', port=63070, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
+ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused (Connection refused)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:106)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2023-07-13 20:11:23,663 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-13 20:11:23,663 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-13 20:11:23,808 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-13 20:11:23,808 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-13 20:11:23,825 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-13 20:11:23,825 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-13 20:11:23,825 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-13 20:11:23,825 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-13 20:11:24,404 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:24,404 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:24,466 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:24,466 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:24,473 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:24,473 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:24,552 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:24,552 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:24,556 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:24,556 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:24,556 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:24,556 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:24,561 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:24,561 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:24,562 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:24,562 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:24,562 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:24,562 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:24,574 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:24,574 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:24,586 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:393] - [fixed-localhost_8848-dev] [check-update] get changed dataId exception
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:24,586 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:393] - [fixed-localhost_8848-dev] [check-update] get changed dataId exception
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:24,668 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:24,668 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:26,794 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:26,794 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:26,827 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:26,827 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:26,983 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:26,983 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:27,019 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:11:27,019 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:27,019 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-07-13 20:11:27,019 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:27,028 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:27,028 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:27,030 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-13 20:11:27,030 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-13 20:11:27,529 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:27,529 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:27,608 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:27,608 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:27,608 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:27,608 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:27,692 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:27,692 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:27,705 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:27,705 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:27,706 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:27,706 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:27,753 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:27,753 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:27,763 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:393] - [fixed-localhost_8848-dev] [check-update] get changed dataId exception
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:27,763 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:393] - [fixed-localhost_8848-dev] [check-update] get changed dataId exception
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:27,935 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:27,935 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:30,064 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:30,064 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:30,098 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:30,098 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:30,141 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-13 20:11:30,141 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-13 20:11:30,201 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-13 20:11:30,201 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-13 20:11:30,234 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-13 20:11:30,232 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:30,232 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:30,234 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-13 20:11:30,246 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-13 20:11:30,246 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-13 20:11:30,246 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:30,246 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:30,247 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-13 20:11:30,247 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-13 20:11:30,247 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:30,247 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:30,278 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:30,278 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:30,283 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-13 20:11:30,283 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-13 20:11:30,288 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:30,288 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:30,288 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:30,288 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:30,321 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-13 20:11:30,321 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-13 20:11:30,334 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:30,334 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:30,336 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:30,336 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:30,336 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:30,336 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:30,339 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-13 20:11:30,339 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-13 20:11:30,339 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-13 20:11:30,339 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-13 20:11:30,339 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-13 20:11:30,339 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-13 20:11:30,347 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:30,347 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://localhost:8848, err : Connection refused (Connection refused)
+2023-07-13 20:11:30,358 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:393] - [fixed-localhost_8848-dev] [check-update] get changed dataId exception
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:30,358 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:393] - [fixed-localhost_8848-dev] [check-update] get changed dataId exception
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:30,431 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:30,431 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:181)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-13 20:11:30,463 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-13 20:11:30,463 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-13 20:11:30,481 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-13 20:11:30,481 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-13 20:11:32,499 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:32,503 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
+2023-07-13 20:11:32,499 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9243a86dd3b30e86b46b186b2ed4c812devauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevauth-service-dev.yamlxuecheng-plus-projecte843c70a6ea789f3c2ad4c087e6356a7dev, tenant=dev}
+2023-07-13 20:11:32,503 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@7cb0be4e]
